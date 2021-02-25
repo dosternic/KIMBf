@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schemas.botframework.com/schemas/skills/skill-manifest-2.0.0.json",
+  "$id": "KIMBF",
+  "name": "KIMBF",
+  "version": "1.0",
+  "publisherName": "Nicolas Dostert",
+  "description": "Skill to implement in PVA",
+  "license": "",
+  "iconUrl": "",
+  "tags": [
+    "kim",
+    "pva",
+    "chatbot"
+  ],
+  "endpoints": [
+    {
+      "name": "default",
+      "protocol": "BotFrameworkV3",
+      "description": "Default endpoint for the skill",
+      "endpointUrl": "https://gizkim.azurewebsites.net/api/messages",
+      "msAppId": "c9b6f83c-c20f-4372-ae45-1392cf287782"
+    }
+  ],
+  "activities": {
+    "message": {
+      "type": "message",
+      "description": "Receives the user's' utterance and attempts to resolve it using the skill's LU models",
+      "value": {
+        "$ref": "#/definitions/accountNumber"
+      }
+    }
+  },
+  "definitions": {
+    "accountNumber": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "locale": {
+          "type": "string",
+          "description": "The current user's locale ISO code"
+        }
+      }
+    }
+  }
+}

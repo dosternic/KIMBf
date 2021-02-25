@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_KIMBF",
+  "recognizers": {
+    "de-de - Kopie": "KIMBF.de-de - Kopie.lu",
+    "de-de": "KIMBF.de-de.lu"
+  }
+}

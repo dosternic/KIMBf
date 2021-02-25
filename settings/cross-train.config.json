@@ -1,0 +1,10 @@
+{
+  "KIMBF.de-de": {
+    "rootDialog": true,
+    "triggers": {
+      "q_gizkim_faq": [],
+      "l_gizkim": [],
+      "Contact": []
+    }
+  }
+}

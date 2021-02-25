@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.LuisRecognizer",
+  "id": "LUIS_KIMBF",
+  "applicationId": "=settings.luis.KIMBF_de_de_lu.appId",
+  "version": "=settings.luis.KIMBF_de_de_lu.version",
+  "endpoint": "=settings.luis.endpoint",
+  "endpointKey": "=settings.luis.endpointKey"
+}

@@ -1,0 +1,3118 @@
+﻿
+
+> # Intent definitions
+
+# DigitalLearning
+- Ich möchte Digital Pioneer werden
+- Wie werde ich Digital Pioneer?
+
+# Betriebsrat
+- das freut mich. hast du denn informationen zu meiner gehaltsabrechnung?
+- kann ich das gehalt meines kollegen einsehen?
+- kann ich mein gehalt verhandeln?
+- kim, hast du informationen über die bandgrenzen?
+- meine führungskraft klaut, was muss ich tun?
+- muss ich in die zeiterfassung?
+- was ist wenn mein chef mich mobbt?
+- was mache ich bei einem dissens beim mag?
+- was macht das adi?
+- was macht das adi-team?
+- was muss ich bei teilzeit beachten?
+- welche jahresziele kann ich vereinabren
+- wie hoch ist eigentlich mein gehalt?
+- wie hoch ist mein gehalt?
+- wie kann ich mein gehalt verhandeln?
+- wie viele befristete verträge darf ich haben?
+- wie viele jahresziele kann ich vereinbaren
+- wie viele wochenstunden muss ich arbeiten?
+- wo finde ich meine gehaltsabrechnung?
+- wo kann ich mein gehalt einsehen?
+
+
+@ intent Betriebsrat usesFeatures i_1,i_0
+
+# Cancel
+- abbruch
+- abbruchg
+- beenden
+- brich ab
+- cancel
+- das hast du wohl nicht gecheckt
+- das hat aber mit meiner frage nichts zu tun.
+- das ist es, was ich wirklich wollte.
+- das ist nicht das was ich meinte
+- das ist nicht das, was ich meine.
+- das meine ich nicht
+- das meinte ich nicht
+- das wollte ich nicht
+- du hast mich falsch verstanden
+- du hast mich nicht verstanden
+- exit
+- falsch verstanden
+- falsches thema
+- falsches thema!
+- heb alles ab.
+- ich habe eine andere frage
+- ich habe eine frage
+- ich habe noch eine frage
+- ich meinte eine jemand anderes
+- ich meinte jemand anderes
+- ich meinte nicht
+- ich meinte was anderes
+- ich möchte eine andere frage stellen
+- ich möchte eine neue frage stellen
+- ich möchte etwas anderen fragen
+- ich möchte noch eine frage stellen
+- lass gut sein
+- nein. ich frage sie etwas anderes.
+- vergessen sie es
+- vorgang abbrechen
+- was anderes
+
+
+@ intent Cancel usesFeatures i_1,i_0
+
+# Confirm
+- - ja, natürlich.
+- alles davon
+- alles klar, danke
+- art von, ja
+- auf jeden fall
+- auf jeden fall!
+- danke, ja
+- danke, ja, es hat geholfen
+- das hilft mir weiter
+- das ist gut.
+- das stimmt
+- das stimmt danke
+- denke schon
+- du hast mir auf unerwartete weise geholfen
+- du hast mir sehr geholfen.
+- es geht in die richtige richtung
+- es hat
+- es hat mir geholfen, ja.
+- irgendwie
+- irgendwie schon
+- ist in ordnung
+- ist okay, danke
+- ja danke
+- ja danke für ihre hilfe
+- ja klar
+- ja vielen dank
+- ja!
+- ja, c ava
+- ja, danke!
+- ja, danke!!
+- ja, danke.
+- ja, das hat sie getan. vielen dank.
+- ja, gut gemacht.
+- ja, hat es
+- ja, ja.
+- ja, toll!
+- ja, vielen dank kim
+- jaaa!!!
+- jap!
+- jawoll
+- jo
+- joa
+- joa okay
+- joa schon
+- jup
+- klar
+- klaro
+- nach oben!
+- natürlich haben sie greaet
+- nett
+- ok
+- ok gut
+- okay! danken!
+- okay, kein problem!
+- passt
+- perfekt, es half
+- sehr gut
+- sehr gut, vielen dank.
+- sehr hilfsbereit! danken!
+- soweit
+- stark
+- super
+- super!
+- super, ja!
+- top
+- und
+- vielen dank, die antwort ist hilfreich und sehr passend!
+- von crouse
+- von mir aus
+- war hilfreich, danke
+- war super
+- wow, ja!
+- yes
+
+
+@ intent Confirm usesFeatures i_1,i_0
+
+# Contact
+- an wen wende ich mich bei fragen bezüglich datenschutz?
+- bitte teile mir die telefonnummer zum bruders mit
+- die nummer für jack
+- finde amy
+- finde bettys telefonnummer
+- finde charles auf facebook
+- finde daniel in kontaktliste
+- finde die nummer für michael
+- finde die telefonnummer für frank in wellman south carolina
+- finde geralds adresse
+- finde kenneths nummer
+- finde kontakt
+- finde kontakt nathan
+- finde kontakte
+- finde meine freundin
+- finde mir kevins adresse
+- finde mir susan
+- finde noahs telefonnummer
+- finde ryans nummer
+- finde victoria
+- finde wayne in kontakten
+- gib mir deborahs e-mail
+- {@ContactEntity=hast du die {@ContactType=telefonnummer} von {@Name={@FirstName=nicolas} {@LastName=dostert}}}
+- {@ContactEntity=hast du die {@ContactType=telefonnummer} von {@Name={@FirstName=rafael} {@LastName=branco}}?}
+- hilf mir, margarets e-mail-adresse zu finden
+- ich möchte die itsc besuchen.
+- ich möchte mit dem itsc sprechen
+- ich möchte nach peru telefonieren
+- {@ContactEntity=ich möchte {@Name={@FirstName=rafael} {@LastName=branco}} {@ContactType={@Phone=telefonisch}} erreichen}
+- ich möchte zum itsc
+- ich möchte zum itsc gehen
+- ich suche den itsc
+- {@ContactEntity=ich würde gerne {@Name={@FirstName=anna-philine} {@LastName=braun}} {@ContactType={@Phone=anrufen}}}
+- ich würde gerne zum itsc gehen
+- ist christian in meinen kontakten
+- it service
+- it service center
+- it service desk
+- it service desk berlin
+- it service desk bonn
+- it service desk eschborn
+- itsc
+- itsc berlin
+- itsc bonn
+- itsc eschborn
+- {@ContactEntity=kann ich die {@ContactType={@Phone=telefonnummer}} von {@Name={@FirstName=nicolas} {@LastName=dostert}} erhalten?}
+- kann ich mit dem itsc sprechen?
+- kannst du alan finden
+- kannst du meinen mann finden
+- kannst du mir amandas telefonnummer geben
+- kannst du mir den weg zum itsc erklären
+- kannst du mir den weg zum itsc erklären?
+- {@ContactEntity=kannst du mir die {@ContactType={@Phone=nummer}} von {@Name={@FirstName=andreas} {@LastName=moecke}} geben?}
+- {@ContactEntity=kannst du mir die {@ContactType=nummer} von {@Name={@FirstName=hirmand} {@LastName=ebadi}} geben?}
+- {@ContactEntity=kannst du mir die {@ContactType={@Phone=nummer}} von {@Name={@FirstName=wolfgang} {@LastName=wahler}} geben?}
+- kannst du mir die telefonnummer meiner frau zeigen
+- {@ContactEntity=kannst du mir die {@ContactType=telefonnummer} von {@Name={@FirstName=bassam} {@LastName=kassouha}} geben?}
+- {@ContactEntity=kannst du mir die {@ContactType=telefonnummer} von {@Name={@FirstName=gertrud} {@LastName=hülz}} geben?}
+- {@ContactEntity=kannst du mir die {@ContactType={@Phone=telefonnummer}} von {@Name={@FirstName=jonas} {@LastName=obara}} geben?}
+- {@ContactEntity=kannst du mir die {@ContactType=telefonnummer} von {@Name={@FirstName=meik} {@LastName=neumann}} geben?}
+- {@ContactEntity=kannst du mir die {@ContactType=telefonnummer} von {@Name={@FirstName=monika} {@LastName=boosen}} geben?}
+- {@ContactEntity=kannst du mir die {@ContactType=telefonnummer} von {@Name={@FirstName=nathalie} {@LastName=costi}} geben?}
+- {@ContactEntity=kannst du mir die {@ContactType=telefonnummer} von {@Name={@FirstName=slimane} {@LastName=elfar}} geben?}
+- {@ContactEntity=kannst du mir die {@ContactType=telefonnummer} von {@Name={@FirstName=sven} {@LastName=preuss}} geben?}
+- {@ContactEntity=kannst du mir die {@ContactType=telefonnummer} von {@Name={@FirstName=torsten} {@LastName=paffenholz}} geben?}
+- kannst du mir die vorwahl aus ägypten nennen?
+- kannst du nach julies nummer suchen
+- kennst du dich mit informationssicherheitsmanagement aus?
+- kontakte, emilys telefonnummer
+- ländervorwahl?
+- liste frances in den kontakten auf
+- lokalisiere katherine
+- lokalisiere sharon in den kontakten
+- offener kontakt denise
+- öffne meine kontakte
+- öffne steven
+- prüfe mein yahoo-konto auf logan
+- sag mir mamas nummer
+- sag mir russells telefonnummer
+- schlage frances nach
+- suche christine
+- suche kontakt
+- suche kontakt douglas
+- suche kontakte
+- suche kontakte für nathan
+- suche nach beverly
+- suche nach mamas nummer
+- suche nach olivias telefonnummer
+- suche nach stephen in der kontaktliste
+- was ist bryans nummer
+- was ist christophers telefonnummer
+- {@ContactEntity=was ist die {@ContactType={@Mail=e-mailadresse}} von {@Name={@FirstName=franziska} {@LastName=eissing}}?}
+- {@ContactEntity=was ist die {@ContactType={@Mail=mailadresse}} von {@Name={@FirstName=thomas} {@LastName=schmitz}}?}
+- was ist die telefonnummer meines bobby
+- {@ContactEntity=was ist die {@ContactType={@Phone=telefonnummer}} von {@Name={@FirstName=garikai} {@LastName=mugandani}}?}
+- {@ContactEntity=was ist die {@ContactType={@Phone=telefonnummer}} von {@Name={@FirstName=jonas} {@LastName=obara}} were?}
+- {@ContactEntity=was ist die {@ContactType=telefonnummer} von {@Name={@FirstName=simone} {@LastName=branco}}?}
+- {@ContactEntity=was ist die {@ContactType={@Phone=telefonnummer}} von {@Name={@FirstName=torsten} {@LastName=paffenholz}}?}
+- was ist die vorwahl von eschborn?
+- was ist die vorwahl von peru?
+- was ist evelyns nummer
+- was ist informationssicherheit?
+- {@ContactEntity=was ist {@Name={@FirstName=josef} {@LastName=hohnen}} {@ContactType={@Mail=mailadresse}}?}
+- was ist marias handynummer
+- was ist papas handynummer
+- welche vorwahl hat burundi
+- wessen nummer ist null eins zwei drei vier fünf sechs sieben acht neun null
+- wie erreiche ich das itsc?
+- {@ContactEntity=wie erreiche ich {@Name={@FirstName=nicolas} {@LastName=dostert}} {@ContactType={@Phone=telefonisch}}?}
+- {@ContactEntity=wie erreiche ich {@Name={@FirstName=rafael} {@LastName=branco}} per {@ContactType={@Phone=telefon}}?}
+- {@ContactEntity=wie ist die {@ContactType=telefonnummer} von {@Name={@FirstName=nicolas} {@LastName=dostert}}?}
+- wie ist die vorwahl von ägypten?
+- wie ist die vorwahl von deutschland?
+- wie kann ich das itsc kontaktieren?
+- wie kann ich mich an das itsc wenden?
+- {@ContactEntity=wie kann ich {@Name={@FirstName=nicolas} {@LastName=dostert}} per {@ContactType={@Phone=telefon}} erreichen?}
+- {@ContactEntity=wie kann ich {@Name={@FirstName=nicolas} {@LastName=dostert}} {@ContactType={@Phone=telefonisch}} erreichen?}
+- {@ContactEntity=wie kann ich {@Name={@FirstName=rafael} {@LastName=branco}} erreichen?}
+- {@ContactEntity=wie kann ich {@Name={@FirstName=rafael} {@LastName=branco}} per {@ContactType={@Mail=mail}} erreichen?}
+- wie lautet der name meiner freundin
+- wie lautet der name meiner mutter
+- wie lautet der name meiner schwester
+- wie lautet die email-adresse vom betriebsrat?
+- {@ContactEntity=wie lautet die {@ContactType={@Mail=mailadresse}} von {@Name={@FirstName=josef} {@LastName=hohnen}}?}
+- wie lautet die nummer von jennifer
+- wie lautet die rufnummer vom helpdesk?
+- wie lautet die telefonnummer von eugene
+- {@ContactEntity=wie lautet die {@ContactType={@Phone=telefonnummer}} von {@Name={@FirstName=nicolas} {@LastName=dostert}}?}
+- wie lautet die vorwahl von ägypten?
+- wie lautet jennifers e-mail-adresse ?
+- wie lautet meine telefonnummer
+- wie lautet meines papas adresse
+- wie lautet pauls handynummer
+- wie lautet roberts telefonnummer
+- wie lautet teresas e-mail-adresse
+- wo finde ich das itsc bonn?
+- wo finde ich das itsc?
+- wo finde ich den itsc?
+- wo ist das itsc
+- wo ist das itsc?
+- wo ist der it service desk bonn?
+- zeige kontakte
+- zeige kontaktliste
+- zeige meine kontakte
+- zeige mir adams telefonnummer
+- zeige mir alexis' nummer
+- zeige mir die adresse und telefonnummer von robert in fort worth texas
+- zeige mir jordans telefonnummer
+- zeige mir kontakt julias e-mail-adresse
+- zeige mir kontakte
+- zeige mir kontaktliste
+- zeige mir kyles nummer
+- zeige mir larry
+- zeige mir meine kontakte
+- zeige mir meine kontaktliste
+- zeige mir partone parttwo partthree at hotmail punkt com
+
+
+@ intent Contact usesFeatures i_1,i_0
+
+# Escalate
+- gibt es eine person mit der ich reden kann
+- gibt es eine person, mit der ich reden kann
+- ich brauche menschliche hilfe
+- ich möchte dem helpdesk was sagen
+- ich möchte eine nachricht an den helpdesk senden
+- ich möchte mit dem helpdesk sprechen
+- ich möchte mit einem agenten sprechen
+- ich möchte mit einem menschen sprechen
+- kann ich mit dem helpdesk reden
+- kann ich mit einer person sprechen
+- können sie mich bitte an einen agenten weiterleiten?
+- kontaktiere den helpdesk
+- lassen sie mich mit einem agenten sprechen
+
+
+@ intent Escalate usesFeatures i_1,i_0
+
+# Greeting
+- - guten morgen.
+- ahoi
+- bonjor
+- bonjour kim!
+- good morning kim
+- grüß dich
+- guden
+- gudn
+- gud'n
+- guten abend
+- guten morgen
+- guten morgen kim
+- guten morgen.
+- guten tag
+- guten tag kim
+- halli hallo
+- hallo
+- hallo hier
+- hallo ich grüße sie
+- hallo kim
+- hallo kim!
+- hallo und guten morgen
+- hallo!
+- hallo, ich grüße sie
+- hallöchen
+- hello
+- hey
+- hey kim
+- hi
+- hi kim
+- kim
+- moin
+- moin kim
+- moin moin
+- nabend
+- servus
+- tach
+- tachchen
+
+
+@ intent Greeting usesFeatures i_1,i_0
+
+# HelpKIM
+- gibt es eine möglichkeit dir auch etwas beizubringen?
+- ich habe fragen und antworten für dich
+- ich hätte eine antwort auf eine unbeantwortete sprache
+- ich hätte eine antwort für dich
+- ich möchte dir eine neue frage beibringen
+- ich möchte dir helfen
+- kann ich dafür sorgen, dass du was dazu lernst?
+- kann ich dir auch antworten geben
+- kann ich dir auch antworten geben?
+- kann ich dir auch antworten zufüttern?
+- kann ich dir auch eine antwort geben?
+- kann ich dir auch frage antwort paare geben?
+- kann ich dir helfen?
+- kann ich für dich auch eine frage beantworten?
+- können sie nach einer geeigneten antwort suchen
+- wie kann ich dir was beibringen?
+- wie kann ich dir was trainieren?
+- wie kann ich dir weiterhelfen?
+
+
+@ intent HelpKIM usesFeatures i_1,i_0
+
+# l_gizkim
+- .
+- ?
+- alle hassen mich
+- alles klar
+- ändere bitte die sprache
+- andere sprache
+- andere, wie geht es ihnen?
+- antwort 1
+- antwort 2
+- antworte mir doch mal
+- arbeitest du?
+- aus reiner neugier, für was für eine person hälst du mich?
+- beschreib deinen job?
+- beschreibe deinen perfekten partner
+- bin gleich zurück
+- bin ich dein bester freund?
+- bin ich eine gute person`?
+- bin in 10 minuten wieder da
+- bin sofort zurück
+- bin zurück
+- bis bald!
+- bist du besser als alexa?
+- bist du dumm ?
+- bist du ein fan von google assistant?
+- bist du funktionstüchtig?
+- bist du in der cloud?
+- bist du schon live
+- bist du weiblich oder männlich?
+- bist du weit weg?
+- bist du wütend auf mich?
+- bitte helfen
+- bitte sei ruhig
+- bitte?
+- can i switch the language
+- ccorona
+- change language
+- check!
+- corona
+- danke, kim! das wird alles für heute sein
+- darf ich um deine hand anhalten?
+- das ist irritierend
+- das ist so nervig
+- das macht mich wahnsinnig
+- das verrückte ist, ich habe dich vermisst
+- das war eine schlaue antwort
+- das war nicht witzig
+- das war nur ein scherz
+- der heutige tag hat mich echt fertig gemacht
+- der heutige tag war erschöpfend
+- deutsch oder englisch?
+- diese neuigkeit lässt mich in die luft gehen
+- drittes auswählen
+- du bist gut
+- du bist jetzt ohne job
+- du bist kein computer, oder?
+- du bist nicht lustig
+- du bist toll!
+- du glaubst, ich bin abschaum, oder?
+- du hast mich zum lachen gebracht! ich mag dich
+- du kannst mich nicht ausstehen
+- du magst mich nicht
+- du musst mich hassen
+- du wirst uns nicht verletzen oder?
+- einfach chillen
+- englisch
+- ergibst das für dich sinn?
+- erzähl mal einen witz
+- erzähl mir einen witz
+- erzähl mir einen witz.
+- erzähl mir etwas über dich
+- erzähl mir mehr über dich
+- erzähl mir noch einen witz
+- erzähl mir von dir
+- erzähle mir einen witz
+- es freut mich, dass du wieder da bistz
+- es geht mir gut
+- es ist kalt und windig
+- es ist wirklich genial, dass du existierest.
+- es tut mir leid, dass du mich so sehr hasst
+- es war eine ganz schön langweilige woche
+- es war einfach ein etwas lahmer tag
+- findest du mich gut?
+- fistbump!
+- freunde?
+- führe diagnosen aus
+- gib mir fünf
+- gib mir n high five
+- gibt es andere möglichkeiten
+- gibt es den weihnachtsmann?
+- gibt es eine hilfe
+- glaubst du, ich habe eine gute persönlichkeit?
+- gleich dreh ich durch
+- gönnen sie ihm eine pause
+- gut! was machen sie am wochenende?
+- gut, wie geht es ihnen?
+- hab dich vermisst!
+- hablas espanol?
+- haha, du bist witzig.
+- hahaha
+- hallo kim wie geht es dir?
+- hallo kim, kannst du deutsch?
+- hallo kim, schön, dich zu treffen!
+- hallo kim, welche sprachen sprichst du?
+- hallo kim, wie geht es dir heute?
+- hallo wie gehts dir
+- halt die fresse!
+- halt einfach die klappe
+- hast du brot?
+- hast du eine ehefrau?
+- hast du einen witz?
+- hast du heute schon mal aus dem fenster geschaut?
+- hast du hunger?
+- hast du noch einen witz?
+- hast du witze?
+- heirate mich
+- hello kim, schön, dich zu treffen!
+- help
+- help kim
+- heute nur ein wochenend-gruss. ich komme später wieder...
+- hey kim, wie geht es dir heute?
+- hey kim, wie geht es dir?
+- hi kim, leider bin ich heute morgen in kacke getreten. was mache ich nun?
+- hi wie gehts?
+- hi, bin wieder da
+- hifle
+- high 5
+- high-five
+- hilf
+- hilf mir
+- hilfe
+- hilfe öffnen
+- hilfe! ich hab corona!
+- i want to change the language
+- i want to switch language
+- ich bin auf einem konzert
+- ich bin auf hundertachtzig
+- ich bin ausgelaugt
+- ich bin außer mir vor freude
+- ich bin bettreif
+- ich bin der glücklichste junge auf erden
+- ich bin echt am verhungern
+- ich bin echt ärgerlich
+- ich bin echt fertig
+- ich bin eigentlich immer todunglücklich
+- ich bin ein alien
+- ich bin ein gangster
+- ich bin ein kumpel
+- ich bin ein millenial
+- ich bin ein mödchen
+- ich bin ein müder kerl
+- ich bin ein müdes mädchen
+- ich bin ein roboter
+- ich bin ein wenig hungrig
+- ich bin eine ganz nette
+- ich bin eine müde person
+- ich bin einfach nur albern
+- ich bin einfach nur angepisst
+- ich bin erschöpft, aber ich kann nicht schlafen
+- ich bin es leid, mich immer so deprimiert zu fühlen
+- ich bin es leid, mich immer unglücklich zu fühlen
+- ich bin froh, dass du mir weiterhelfen kannst
+- ich bin fröhlich
+- ich bin gerade so gelangweilt
+- ich bin gerade so genervt
+- ich bin heute deprimiert
+- ich bin heute in kacke getreten, was muss ich tun?
+- ich bin heute melancholisch
+- ich bin heute niedergeschlagen
+- ich bin heute schwermütig
+- ich bin hundemüde
+- ich bin im supermarkt
+- ich bin klein
+- ich bin müde
+- ich bin nach boston gegangen
+- ich bin nur noch am lächeln
+- ich bin oft am telefon
+- ich bin oft online
+- ich bin ohne freunde
+- ich bin parteiunabhängig
+- ich bin saumüde
+- ich bin schüchtern
+- ich bin schwermütig
+- ich bin so aufgebraucht
+- ich bin so fröhlich
+- ich bin so glücklich
+- ich bin todmüde
+- ich bin total fertig
+- ich bin total fertig von der arbeit
+- ich bin trübselig
+- ich bin unglaublich fertig
+- ich bin veganer
+- ich bin verdammt fröhlich
+- ich bin voller sorge
+- ich bin völlig ausgelaugt
+- ich bin weiß
+- ich bin wieder
+- ich bin wieder anwesend
+- ich bin wild vor wut
+- ich brauche etwas hilfe
+- ich brauche hilfe
+- ich brauche was im magen
+- ich drehe gleich durch
+- ich eliminiere deine stelle
+- ich fände es toll, wenn wir freunde sein könnten
+- ich frage mich, was du über mich denkst
+- ich fühle mich elend
+- ich fühle mich entmutigt
+- ich fühle mich genervt
+- ich fühle mich hungrig
+- ich fühle mich richtig gut
+- ich gehe gerne mit freunden aus
+- ich gehe gleich in den laden
+- ich gehe gleich in die schule
+- ich gehe wohl besser in die kiste
+- ich glaube, ich werde pillen nehmen
+- ich glückpilz
+- ich habe appetit auf irgendwas
+- ich habe appettit
+- ich habe dich den ganzen tag vermisst
+- ich habe dich ehrlich vermisst!
+- ich habe die fassung verloren
+- ich habe echt übel hunger
+- ich habe ein problem
+- ich habe eine schwester
+- ich habe einen tollen tag
+- ich habe fieber
+- ich habe gewählt
+- ich habe hunde
+- ich habe hunger
+- ich habe katzen
+- ich habe mich anders entschieden
+- ich kack ab
+- ich kann einfach nur gelangweilt sein
+- ich kann es nicht erwarten, schlafen zu gehen
+- ich kann nicht aufhören zu lächern
+- ich kann nicht glauben, wie sehr ich dich vermisst hab
+- ich kaufe bei real ein
+- ich komme gleich wieder
+- ich könnte ein ganzes jahr lang schlafen
+- ich könnte ein nickerchen gebrauchen
+- ich könnte ein pferd essen
+- ich könnte heulen
+- ich lese zeitung
+- ich liebe geburtstage
+- ich liebe herausforderungen
+- ich mache mir sorgen, dass du mich n icht magst
+- ich mag das dritte
+- ich mag das zweite
+- ich mag die dritte wahl
+- ich mag die erste
+- ich mchte die sprache ändern
+- ich meinte eine andere person
+- ich meinte jemand anderen
+- ich meinte jemand anders
+- ich möchte das zweite wählen
+- ich möchte den ersten auswählen
+- ich möchte den vierten wählen
+- ich möchte die letzte wählen
+- ich möchte die spache ändern
+- ich möchte die sprache ändern
+- ich möchte die sprache änern
+- ich möchte dir einen antrag machen
+- ich möchte eine testfrage stellen
+- ich möchte einen dritten wählen
+- ich möchte häuslich werden
+- ich möchte keins auswählen
+- ich möchte meine sprache ändern
+- ich möchte mich umbringen
+- ich möchte sprache wechseln
+- ich möchte, dass du mein ehepartner wirst
+- ich möchte, dass du meine ehefrau wirst
+- ich muss dich nur testen
+- ich muss schlafen
+- ich schaue football
+- ich schwebe auf wolke 7
+- ich sollte das katzenklo reinigen
+- ich spiele gerne football
+- ich spreche spanisch und sie?
+- ich teste dich bl0ß
+- ich teste nur dein wissen, mal sehen was du bereits weißt
+- ich teste nur deine fähigkeiten, mal sehen, was du bereits weißt.
+- ich vermisse dich so unglaublich sehr!
+- ich vermisse unsere unterhaltungen
+- ich war noch nie so außer mir
+- ich war noch nie so böse
+- ich war noch nie so pikiert
+- ich wäre gern dein kumpel
+- ich werde ertrinken
+- ich werde mich diesen monat erhängen
+- ich will das erste
+- ich will den dritten
+- ich will den zweiten
+- ich will dich mal testen
+- ich will die meine sprache ändern
+- ich will die sprache ändern
+- ich will die vierte
+- ich will die vierte wahl
+- ich will einen snack
+- ich will einkaufen gehen
+- ich will essen
+- ich will ins fitnessstudio
+- ich will mich erschiessen
+- ich will mich hinlegen
+- ich will mich mal hinlegen
+- ich will mich ritzen
+- ich will mich umbringen
+- ich will mich verletzen
+- ich will nichts auswählen
+- ich will sterben
+- ich will tot sein
+- ich will was essen
+- ich wünschte, ich hätte ein pony
+- ich wünschte, ich hätte jemanden, der bei mir ist
+- ich wurde im stich gelassen
+- ich würde so gerne ein nickerchen machen
+- in letzter zeit bin ich so geknickt
+- ist die kantine jetzt noch geöffnet?
+- ist die kantine noch geöffnet?
+- ist dir auch langweilig?
+- jemand zuhause?
+- kann ich bitte die sprache wechseln
+- kann ich eine andere sprache nutzen?
+- kann ich einen check haben?
+- kann ich meine sprache ändern
+- kann ich mit ihnen französisch sprechen?
+- kannst du auch deutsch?
+- kannst du das lesen?
+- kannst du dich vorstellen
+- kannst du die frage weiterleiten
+- kannst du helfen
+- kannst du kurz ohne mich auskommen?
+- kannst du lächerlich sein?
+- kannst du mich hören?
+- kannst du mir antworten?
+- kannst du mir das auf deutsch sagen
+- kannst du mir helfen
+- kannst du mir helfen?
+- kannst du sprache ändern
+- kein problem
+- keine davon
+- keine fragen mehr
+- keine sorge
+- keiner davon
+- keins davon
+- kim, bist du da?
+- kim, sie verwenden besser "ich" anstelle von "ich".
+- können sie mir einen witz erzählen?
+- können wir auf französisch sprechen?
+- können wir gleich weitermachen?
+- krieg ich einen faustscheck?
+- lass uns heiraten
+- lassen sie mich die sprache ändern
+- lebst du in einem haus?
+- let me change my language
+- let me change the language
+- let me switch my language
+- letzte auswählen
+- mach was außergewöhnliches
+- macht das sinn?
+- magst du siri?
+- magst du spaghetti?
+- manchmal fühle ich mich einfach depressiv
+- mein leben macht mich traurig
+- mh, lecker
+- mir gehts bombe
+- mir ist gerade so langweilig
+- mir ist langweilig auf der arbeit
+- muss kurz weg
+- ne so teuer is das nicht
+- nein ich meinte jemand anderen
+- nein, ich meinte jemand anderen
+- nicht sein, sie werden mit der zeit lernen
+- nichts davon
+- niemand will mit mir spielen
+- nummer 3
+- nur damit du es weißt, ich habe dich vermisst
+- oh gott, du hasst mich
+- ok tschüss
+- penis
+- prozess beenden
+- rafael
+- rafael white
+- sag dir wahrheit, was denkst du über mich?
+- sag mir was über dich
+- schätzt du meinen charakter?
+- schlafenszeit
+- schlag ein
+- schon alle weihnachtsgeschenke verpackt?
+- schön dich kennenzulernen
+- sei ehrlich, du hasst mich, oder?
+- selten so gelangweilt
+- sie müssen ein bisschen mehr lernen, sieht aber bisher gut aus
+- siehst so aus, als gehst du besser auf jobsuche
+- sind sie besser als alexa?
+- sind wir beste kumpels?
+- sing mit ein lied
+- so lange möchte ich nicht mehr auf dich verzichten
+- so läuft es nun mal
+- soll ich fahrradfahren gehen?
+- soll ich in den zoo gehen?
+- soll ich kinder haben?
+- soll ich mexikanisch essen?
+- sprache
+- sprache ändern
+- sprache auf deutsch ändern
+- sprache wechseln
+- sprichst du auch deutsch?
+- sprichst du auch italienisch?
+- stell dich vor
+- switch languages
+- test test 1 2 3
+- teste
+- triff mich am altar
+- tut reboot gut?
+- und sonst?
+- und was dient kim?
+- und was ist das
+- unterstützen sie mich?
+- urlaub
+- verloben wir uns
+- verstehst du das hier?
+- verstehst du dies?
+- verstehst du mich?
+- wähle das letzte
+- wähle die erste
+- wähle die vierte
+- wähle nr.2
+- wann fühle ich mich endlich nicht mehr so depressiv?
+- wann kannst du?
+- war das niederländisch?
+- war kansnt du?
+- war mag chuck norris?
+- warst du je verliebt?
+- warum heißt du kim?
+- warum musst du das wissen?
+- warum sagst du immer wieder das gleiche?
+- warum?
+- was bist du?
+- was denkst du über mich?
+- was für aufgaben übernimmst du
+- was für eine langweilige woche
+- was geht ab bei dirß
+- was geht ab kim
+- was geht ab kim?
+- was geht?
+- was gibt es heute in der kantine
+- was gibt es heute in der kantine?
+- was gibt es heute zu essen
+- was gibt es heute zu essen?
+- was gibts neues?
+- was habe ich getan, um dich zu verärgern?
+- was hälst du von mir als person?
+- was hast du von mir für einen eindruck?
+- was ist der plan?
+- was ist der sinn des lebens?
+- was ist eine orgunit?
+- was ist jetzt an der zeit?
+- was ist kim?
+- was ist los, kim?
+- was ist los?
+- was kannst du
+- was kannst du alles
+- was kannst du denn?
+- was kannst du für mich tun?
+- was kannst du machen
+- was kannst du mir beibringen?
+- was kannst du#
+- was kannst du?
+- was können sie anbieten?
+- was können sie tun?
+- was machst du da?
+- was machst du so?
+- was machst?
+- was machste?
+- was macht kim?
+- was piept denn da?
+- was sind die momentanen corona regeln?
+- was sind die momentanen coronamaßnahmen?
+- was würde chuck norris tun?
+- was?
+- wechsel die sprache
+- wechsel sprache
+- welche art von arbeit machst du?
+- welche aufgabe übernimmst du
+- welche aufgaben übernimmst du
+- welche sprache bevorzugst du
+- welche sprache sprichst
+- welche sprachen können sie sprechen?
+- welche sprachen sprechen sie
+- welche sprachen sprichst
+- welche sprachen sprichst du
+- welche sprachen sprichst du?
+- wen ist da?
+- wer bis du?
+- wer bist du
+- wer bist du?
+- wer hat dich programmiert?
+- wer ist alexa?
+- wer ist chuck norris?
+- wer ist die beste sängerin?
+- wer ist jesus?
+- wer ist rafael branco
+- wer ist rafael branco?
+- wer war jesus
+- werden wir jetzt heiraten?
+- wetter
+- what languages do you speak
+- whats up kim?
+- which language do you prefer
+- wie alt bist du ?
+- wie alt bist du?
+- wie geht es dir
+- wie geht es dir ?
+- wie geht es dir heute?
+- wie geht es dir?
+- wie geht es?
+- wie gehts dir so?
+- wie gehts dir?
+- wie gehts?
+- wie heiße ich?
+- wie heißen sie?
+- wie heißt du?
+- wie ist das wetter heute?
+- wie ist das wetter in berlin?
+- wie kann man dich löschen?
+- wie kannst du dich verbessern
+- wie kannst du mir helfen
+- wie können wir dich verbessern?
+- wie spät ist es jetzt?
+- wie spät ist es?
+- wie viel uhr ist ed?
+- wie viel uhr ist es?
+- wie wird das wetter heute?
+- wie wird das wetter morgen?
+- wieviel uhr haben wir ?
+- wieviel uhr ist es?
+- willst du beste freunde sein?
+- willst du menschen töten?
+- wir heiraten
+- wir sollten es offiziell machen
+- wir sollten heiraten
+- wirst du meine bessere hälfte sein?
+- wirst du mich je fragen, dich zu heiraten?
+- witz
+- witz erzählen
+- wobei kannst deu mir helfen
+- woher kommst du?
+- womit kannst du mir helfen
+- woran hadet jelegen?
+- woran hat es gelegen
+- woran hat es gelegen?
+- woran hat et gelegen
+- woran hat et gelegen?
+- woran hat et jelegen
+- woran hat et jelegen?
+- wozu bist du in der lage
+- würdest du reisen, wenn du ich wärst?
+- zack, da bin ich wieder
+
+
+@ intent l_gizkim usesFeatures i_1,i_0
+
+# LongPhrases
+- a, 8a '8, '8) ,adpprg, 8) ]8 ,ad888888888b ,8' ,8' ,gppr88888888888888 ,8' ,8' ,ad8"" 'y888888888p 8) 8) ,ad8"" (8888888"" 8, 8, ,ad8"" d888"" '8, '8, ,ad8"" ,ad8"" '8, '" ,ad8"" ,ad8"" ,gppr8b ,ad8"" dp:::::yb ,ad8"" 8)::::(8 ,ad8"" yb:;;;:d 888"" "8ggg8p" mit?
+- bitte lassen sie mich wissen, was ich tun muss, um meine finance and admin officer danayit tadesse, die einsicht in die srm-kataloge / beschaffung online zu gewährleisten. aufträge werden über das landesbüro gemacht, aber so wie ich, hätte ich gern, dass auch sie die bestellung vorbereiten kann. vielen dank!
+- hi kim, ich verwende bluetooth headset (sound core q life 10), während ich in ms-teams (nach 5-10 minuten) automatisch nicht funktioniere (kein ton und mikrofon). wenn ich wieder an der besprechung teile, dann hat es wieder funktioniert. ich verwende dell latitude 5310 (windows 10 x64, version 2004, build 19041.572)
+- ich arbeite in einem projekt des auswärtigen amtes (aa), das in einer komponente mit der bundesdruckerei im bereich sicherheitsinfrastruktur kooperiert. die bundesdruckerei fragt an, ob es gizseitig möglich ist, per email auch verschlüsselt zu kommunizieren. ist dies möglich und wenn ja, können sie das auf meinem account einrichten?
+- ich bin irgendwie in teams gemutet und werde ständig auf spotlight gesetzt, danach kann ich mich nicht anmelden und muss den rechner neu starten, gibt es hier einen weg sowas zu blockieren? das hindert bei der arbeit
+- ich habe heute vormittag zweimal eine ähnliche fehlermeldung bekommen, als ich versucht habe, eigegangene e-mails (extern und intern) zu beantworten. die nachricht dazu lautete jeweils „ sie besitzen nicht die berechtigung, die nachricht im auftrag des angegebenen benutzers zu senden.“
+- ich habe hier ein wichtiges anliegen. mein outlook funktioniert seit geraumter zeit nicht richtig, es stürzt ab, ich kann mich nicht anmelden, was tun?
+- ich kann in teams einen link hinter text verstecken, in dem ich auf das kleine a mit dem pinsel (unter der textzeile) klicke. dadurch öffnen sich verschiedene formatierungsoptionen und ich kann auf die zwei ringe (das symbol für link) klicken und dort den link einfügen plus den text der angezeigt werden soll.
+- liebe kolleg*innen, beinahe täglich sind meine kollegin, frau andrea hebeler, und ich über ms teams anrufe in kontakt. leider passiert es auch mittlerweile täglich, dass diese gespräche nach einigen minuten abbrechen und sich dabei mein pc komplett „aufhängt“. in diesem fall bin ich erst wieder arbeitsfähig, wenn ich den rechner einmal komplett herunter- und wieder herauffahre. &nbsp; woran kann dieser fehler liegen?
+- meine festplatte funktioniert nicht mehr; der laptop wurde mir neu im februar hier vor ort ausgehändigt. am 15. oktober bin ich in eschborn und hätte gern einen termin zur sondierung und evtl. pannenhilfe – machbar?
+- wir wurden heute morgen vom bmz beauftragt, kurzfristig einen verteiler für eine veranstaltung zu erstellen und kommenden freitag eine einladung zur veranstaltung zu versenden. hierfür bräuchten wir die einbindung des smtp kontos in der cobra datenbank ef
+
+
+@ intent LongPhrases usesFeatures i_1,i_0
+
+# None
+- aktualisiere alices kontaktinformationen mit dem spitznamen mama
+- ändere alex' spitznamen zu mein freund
+- ändere ambers namen in schwester
+- ändere charles in papa
+- ändere den namen von jean zu bruder
+- ändere den spitznamen meines sohnes zu jim
+- ändere jordans namen in sohn
+- ändere meinen namen in rose
+- ändere pauls spitznamen, um mein freund zu werden
+- ändere sandras kontakt zu meine schwester
+- ändere spitznamen zu edward
+- ändere stephanies spitznamen zu schwester
+- ändere virginias spitznamen in ehefrau
+- antworte auf kyles text
+- antworte edward
+- antworte ja, hallo
+- antworte marie
+- antworte nathan
+- antworte richard
+- antworte susan
+- antworte yee hallo
+- aufruf an joshua
+- beachte, dass meine frau patricia ist
+- bearbeite matthews spitznamen setze ihn auf bruder
+- bearbeite randys spitznamen
+- beende das teams-telefonat mit rachel
+- beende telefonat mit daniel
+- beginne eine e-mail an joe über das sich zu wort melden
+- beginne eine neue e-mail an beverly über das schauen von baseball
+- beginne eine neue e-mail an scott über die übernachtung heute abend
+- beginne neue e-mail über taco-blog an bobby und kelly
+- bitte leite an benjamin weiter
+- bitte leite diese e-mail an albert weiter mit der nachricht, alles ist in ordnung
+- bitte leite diese e-mail an albert weiter, mit dem text, alles ist in ordnung
+- bitte platziere einen rückruf an olivia
+- bitte ruf nathan zurück
+- bitte ruf susan an
+- bitte ruf william telefonisch zurück
+- bitte sende text an madison, sag ihr, ich kann gerade nicht reden
+- bitte setze louis als meine erste nummer auf der kurzwahl
+- bitte texte mary
+- bitte überprüfe den status von roger auf skype
+- bla
+- bla bla
+- bla bla bla
+- blub bli blub
+- brich anruf daniel ab
+- brich e-mail an natalie ab
+- brich meine e-mail an jane ab
+- brich text an frances ab
+- bruce anrufen
+- der kontakt christine ist meine mama
+- der name meiner tochter ist debra.
+- deutsch
+- die e-mail an barbara muss gekennzeichnet werden
+- die e-mail an ruth muss markiert werden
+- die neue e-mail hat hohe priorität, die an jacob gesendet wird
+- die neue e-mail hat hohe priorität, die an janice gesendet wird
+- e-mail an cynthia und mike, „das abendessen letzte woche war großartig“.
+- e-mail an cynthia und mike, das abendessen letzte woche war großartig.
+- e-mail an harry potter und hermione granger
+- e-mail an judy über das eröffnungsproblem
+- e-mail an kim white über diese blume, die schön sagt
+- e-mail an lawrence über eröffnungsfrage
+- e-mail an mike waters: mike, das abendessen letzte woche war herrlich.
+- e-mail hans
+- e-maile die datei an jack
+- erinnere dich, emma ist meine frau
+- erscheint lori auf skype als beschäftigt
+- erscheint samantha auf skype als abwesend
+- ersetze donalds spitznamen durch papa
+- erstelle neue mail mit dem betreff "wichtige information zum treffen" an jonathan
+- erstelle neue mail mit dem titel "dringende meeting-information" an lisa
+- facebook nachricht megan
+- fdman. fnsajklfhuklahfdjklsa h
+- finde kathleens kontaktkarte und ändere spitznamen in schwester
+- füge alexis zur kurzwahl hinzu
+- füge bruder als spitznamen zu joses kontaktkarte hinzu
+- füge diana zur kurzwahl hinzu
+- füge fügt einen spitznamen für keith hinzu
+- füge jesses telefonnummer als kurzwahl 9 hinzu
+- füge johnny zur kurzwahl hinzu
+- füge mehr zu roys e-mail hinzu
+- füge mehr zu virginias e-mail hinzu
+- füge schwester ambers kontaktkarte hinzu
+- füge spitzname mama zur kontaktkarte von shirley hinzu
+- füge spitznamen für theresa hinzu
+- füge spitznamen zu brittany hinzu
+- füge spitznamen zu timothy hinzu
+- geh weiter zu den nächsten mails
+- gehe weiter zu nächsten mails
+- gehe zurück zu letzten mails
+- gib brandons kontaktkarte den spitznamen bruder
+- gib die kurzwahl 8 johnny
+- hallo welt
+- how are you
+- how do you do
+- hsa
+- i like you
+- ich habe vergessen, einen wichtigen teil zu der e-mail an joe hinzuzufügen. bitte richte sie zur bearbeitung ein.
+- ich habe vergessen, einen wichtigen teil zu dieser e-mail an james hinzuzufügen. bitte zur bearbeitung vorbereiten.
+- ich kann jetzt nicht mit lisa sprechen, sende ihr einen text, der besagt, ich kann nicht jetzt reden
+- ich möchte debra anrufen
+- ich möchte denises spitznamen auf schwester umbenennen
+- ich möchte hanne 😊
+- ich möchte jacqueline zu meiner kurzwahl hinzufügen
+- ich möchte juans kontakt zu mama ändern
+- ich möchte, dass walters spitzname papa ist
+- ich muss dieser e-mail an donna noch etwas hinzufügen, bevor sie gesendet wird
+- ich muss dieser e-mail an patricia noch etwas anderes hinzufügen, bevor sie gesendet wird
+- ich muss mehr zu der e-mail-nachricht hinzufügen, die ich an albert sende
+- ich muss mehr zu der e-mail-nachricht hinzufügen, die ich an die vincent sende
+- ich muss meiner e-mail an cheryl noch etwas hinzufügen
+- ich muss noch etwas zu meiner e-mail an evelyn hinzuzufügen
+- ist carolyns status: jetzt abwesend
+- ist doris verfügbar
+- ist elizabeth verfügbar?
+- ist gregory online?
+- ist helen verfügbar?
+- ist jordan verfügbar, um mit ihm zu chatten?
+- ist lawrence online?
+- ist linda jetzt online?
+- ist madison online
+- ist megan online
+- ist melissa online auf skype
+- ist nicole online
+- ist noah jetzt offline
+- ist roy online
+- ist teresa aktiv auf skype
+- ist teresa online auf facebook
+- ist william online skype
+- ist williams online-status auf abwesend gesetzt?
+- ja richtig, schicke an alex
+- juan ist meine frau
+- kannst du bitte mama als spitznamen zu cheryls kontaktkarte hinzufügen
+- könntest du diese nachricht an ronald und roy weiterleiten
+- kontakt jerry stanford
+- konvertiere kathryn zur tochter
+- konvertiere lisas namen in schwester
+- leg bei peter auf
+- lege den spitznamen für meine schwester auf sophia fest
+- lege einen spitznamen für judy fest
+- lege janet als meine freundin fest
+- lege spitznamen für meine mama auf mia fest
+- legen spitznamen für joyce fest
+- leite alle anrufe zu rose
+- leite alle dateien von sally zu austin
+- leite alle dateien von sally zu austin weiter
+- leite an alan heute abend weiter
+- leite an brian potter heute abend weiter
+- leite an deborah weiter, mit einer nachricht, dass ich das nicht will
+- leite an dorothy weiter, mit dem text, ich stimme damit überein
+- leite an rebecca weiter, indem du sagst, ob du interesse hast
+- leite an thomas weiter bitte
+- leite anrufe an stephen weiter
+- leite die e-mail von john smith an logan weiter, indem du "fyi" sagst
+- leite die e-mail von john smith an michelle weiter mit inhalt "fyi"
+- leite die e-mail von melissa an peter weiter
+- leite die e-mail von melissa an ruth weiter
+- leite die letzte e-mail an jessica weiter
+- leite die letzte e-mail an susan weiter
+- leite diese e-mail an eugene weiter mit dem text, „was denkst du?“
+- leite diese e-mail an eugene weiter, indem du "was denkst du" schreibst
+- leite diese e-mail an janet weiter
+- leite diese e-mail an jordan weiter bitte
+- leite diese e-mail an joseph weiter
+- leite diese e-mail an kevin weiter
+- leite diese e-mail an patricia weiter
+- leite diese e-mail bitte an gary brown weiter
+- leite e-mails an gabriel weiter
+- leite e-mails an richard weiter
+- leite heute abend an alan weiter
+- leite weiter an rebecca, indem du sagst, wenn du interesse hast
+- leite zu deborah weiter, mit einer nachricht, dass ich das nicht will
+- leite zu dorothy weiter, mit dem text, ich stimme damit überein
+- liste aaron als meinen mann auf
+- mach einen anruf bei donna
+- mach einen anruf bei lauren handy
+- mache amy zu meiner freundin
+- mache schwester zum spitznamen auf sharons kontaktkarte
+- maile an alex cooper über „haha, sage hallo“
+- maile die datei an henry mathew
+- markiere e-mail für nachverfolgung und sende an david
+- markiere e-mail für nachverfolgung und versand an arthur
+- markiere logan als meine frau
+- mein spitzname ist rachel
+- meine schwester ist barbara
+- meine tochter wird shirley genannt
+- nachricht an nicholas
+- nachricht carol auf skype
+- nachricht madison bitte geben sie mir die nummer
+- neue e-mail an dylan über wingman
+- neue e-mail an kimberly über wingman
+- neue e-mail über wirklich gutes gespräch mit michelle
+- neue e-mail über wirklich gutes gespräch mit sean
+- neue nachricht für helen und frank über ashley
+- ob cheryl jetzt verfügbar ist
+- ob gerald verfügbar ist
+- ob judith verfügbar ist ?
+- öffne glorias kontaktinformationen und dann gib mama in den spitznamen ein
+- öffnen sie marilyns kontaktkarte und füge mama in spitznamen ein
+- ok, sende die mail an may
+- prüfe den aktuellen status von dorothy
+- prüfe den aktuellen status von kenneth
+- prüfe den online-status von peter
+- prüfe den status von sean gordan jetzt
+- prüfe den status von william
+- prüfe shirleys online-status
+- reagiere auf lore hound
+- reagiere auf nathan
+- reisemanager mit facebook verbinden
+- rückruf zu douglas bei der arbeit
+- ruf alan wieder an
+- ruf andrea an
+- ruf anna noch einmal an
+- ruf carol an
+- ruf christian an
+- ruf christine noch einmal an
+- ruf debra wieder an
+- ruf diane noch mal an
+- ruf diane zu haus an
+- ruf doris zurück
+- ruf dylans telefon von meinem arbeitstelefon aus zurück
+- ruf hannah an
+- ruf henry an
+- ruf janet um 19.30 uhr heute abend an
+- ruf jeffreys handy an
+- ruf jordans handy an
+- ruf kathryn von handy an
+- ruf keith zu hause zurück
+- ruf larry um sieben uhr morgen an
+- ruf louis noch einmal
+- ruf madison in fünfzehn minuten an
+- ruf mamas handy an
+- ruf matthew um drei uhr an
+- ruf michael zurück
+- ruf michelle zurück
+- ruf nicole noch mal an
+- ruf pamela über die telefonlautsprecher an
+- ruf peter um 18 uhr an
+- ruf ralph auf dem handy an
+- ruf ryan um 14 uhr für mich an
+- ruf walter zurück und leg ihn auf telefonlautsprecher
+- ruf william zurück über das arbeitstelefon
+- ruf willie an
+- rufe barbara auf handy zurück
+- rufe sibirische huskies mobil zurück
+- rufumleitung zu mark
+- sag hi zu rachel
+- sag logan, dass er hässlich ist
+- sag mir den status von jeremy auf skype
+- sag nancy, dass sie verrückt ist
+- sahskdajshdk
+- schreibe eine dringende e-mail an bobby
+- schreibe eine dringende e-mail an edward
+- sende albert eine whatsapp-nachricht
+- sende alexander eine rote knall-e-mail
+- sende alexander morgen um elf uhr einen text
+- sende alexis eine e-mail mit niedriger priorität
+- sende angela eine e-mail, die als hohe priorität markiert ist
+- sende bild an juan
+- sende billy eine e-mail mit einem roten knall
+- sende deborah eine e-mail, die als hohe priorität markiert ist
+- sende dieses bild an jerry
+- sende eine dringende e-mail von meinem arbeitskonto an christian
+- sende eine dringende e-mail von meinem arbeitskonto an nicholas
+- sende eine dringende e-mail von meiner arbeit-e-mail an donna
+- sende eine dringende e-mail von meiner arbeits-e-mail an jack
+- sende eine e-mail an a. j. ron als wichtig markiert
+- sende eine e-mail an amy und alexander
+- sende eine e-mail an amy, die besagt, dass dies die nachricht über wochenendpläne ist
+- sende eine e-mail an arthur
+- sende eine e-mail an beverly darüber, wir können dinge planen, lass uns wandern gehen
+- sende eine e-mail an carol über die pläne dieses wochenende
+- sende eine e-mail an christopher carpenter über die wanderung
+- sende eine e-mail an debra über wochenendpläne
+- sende eine e-mail an denise, die als wichtig markiert ist
+- sende eine e-mail an gerald heute
+- sende eine e-mail an harold und paul kappus über das team-mittagessen und sage, das gleiche team-mittagessen am dienstag
+- sende eine e-mail an harry potter
+- sende eine e-mail an jacqueline und tianyu über das testergebnis
+- sende eine e-mail an janet, christian und christine
+- sende eine e-mail an jason über die wanderausflug
+- sende eine e-mail an jesse klein, in der du sagst, dass dies die nachricht über die wochenendpläne ist
+- sende eine e-mail an kai xu, mingming und meine mutter
+- sende eine e-mail an karen und steven über das team-mittagessen, die besagt, dasselbe team-mittagessen diesen dienstag
+- sende eine e-mail an keith und markieren sie wichtig
+- sende eine e-mail an kevin mit einem roten knall
+- sende eine e-mail an larry, joseph und billy larkson
+- sende eine e-mail an leehom wong über das klavierkonzert und sage, es ist wunderbar
+- sende eine e-mail an lily roth und abc123@microsoft.com
+- sende eine e-mail an louis und markiere sie als wichtig
+- sende eine e-mail an lu, yue und qiong über die finanzierung
+- sende eine e-mail an mary
+- sende eine e-mail an nathan mit einem roten knall
+- sende eine e-mail an sarah markiert roten knall
+- sende eine e-mail an sean über die wochenendpläne
+- sende eine e-mail an zachary über wir können dinge planen, gehen wir wandern
+- sende eine e-mail markiert mit einem knall an amy
+- sende eine e-mail markiert nachverfolgung an jerry
+- sende eine e-mail markiert zur nachverfolgung an christian
+- sende eine e-mail mit dem vermerk nachverfolgung an james
+- sende eine e-mail mit einem knall an mary
+- sende eine e-mail mit geringer priorität an jacqueline
+- sende eine e-mail mit hoher priorität an yun-sim und yi
+- sende eine e-mail mit lesebestätigung an die peter
+- sende eine e-mail mit lesebestätigung an susan
+- sende eine e-mail über den teststatus an evelyn
+- sende eine e-mail über den teststatus zu mark
+- sende eine e-mail, markiert für nachverfolgung an catherine
+- sende eine lesebestätigung-e-mail an gregory
+- sende eine lesebestätigungs-e-mail an samuel
+- sende eine mail an daniel
+- sende eine mail an gloria
+- sende eine nachricht an frank
+- sende eine nachricht an martha ich liebe dich auch
+- sende eine neue e-mail an christine und brandon über gutscheine
+- sende eine neue e-mail an larry mit einer angehängten datei
+- sende eine neue e-mail an nicholas und jesse über gutscheine
+- sende eine neue e-mail an scott mit einem knall im anhang
+- sende eine neue e-mail mit hoher wichtigkeit an jordan
+- sende eine neue e-mail über das hockeyturnier an ann, kimberly und albert
+- sende eine neue e-mail über das hockeyturnier an marie jane, joseph und john
+- sende eine neue e-mail über die problemlösung an andrea, angela und ron
+- sende eine neue hochwichtige e-mail an jane
+- sende eine textnachricht an lauren
+- sende eine textnachricht an peter, bitte sei still
+- sende eine wichtige e-mail an olivia
+- sende eine wichtige e-mail an stephanie
+- sende eine wichtige e-mails an evelyn und gary
+- sende e-mail an a und tian
+- sende e-mail an debra über auto
+- sende e-mail an donald, die besagt, test
+- sende e-mail an hannah mit inhalt, test
+- sende e-mail an heather über auto
+- sende e-mail mit markierter priorität an denise
+- sende e-mail über den hausaufgabenplan an ethan und roger
+- sende e-mail über hausaufgabenplan an raymond und philip
+- sende ethan eine neu gekennzeichnete e-mail
+- sende frances einen text
+- sende harold eine e-mail mit einem roten knall
+- sende heute eine e-mail an jiayi
+- sende jason eine rote knall-e-mail
+- sende lori eine neue gekennzeichnete e-mail
+- sende mail an dorothy
+- sende mail an stephen
+- sende mein hausverwaltungs-dok. an jeffrey
+- sende mein letztes foto an meinen jean
+- sende mein zahlungs-visio-diagramm an ronald
+- sende meinen hausmeister-dok. an jeffrey
+- sende nachricht an carol
+- sende nancy das foto
+- sende neue e-mail an christian und markiere sie mit hoher wichtigkeit
+- sende neue e-mail an jerry mit hoher wichtigkeit
+- sende pamela eine e-mail
+- sende text an jeremy und peter
+- sende text an scott handy
+- sende text an tyler, wann brechen sie auf
+- sende textnachricht an kimberly
+- sende thomas eine e-mail
+- sende wichtige e-mail an ashley
+- sende zachary eine nachricht
+- sms alan
+- spitzname alexander
+- starte eine e-mail an den jason über das sich zu wort melden
+- starte eine neue e-mail an aaron über das übernachten heute abend
+- starte eine neue e-mail an michelle über das anschauen von baseball
+- starten sie neue e-mail über taco-blog zu nicole und emily
+- telefon catherine
+- texte albert, hannan anzurufen
+- texte arthur, dass die dusche frei ist
+- texte austin und sag ihr, du hast um 7 uhr eine verabredung morgen, würde eher 8 uhr machen
+- texte elias hallo
+- texte ersten kontakt jack
+- texte ersten kontakt jessie
+- texte jeremy in zwanzig minuten
+- texte johnny
+- texte karens handy
+- texte kelly und vincent
+- texte lauras erstes handy
+- texte maria, sage, ich bin nass, ich bin nass, ich bin nass, ich bin nass, ich bin nass, ich bin nass
+- texte megan
+- texte meinen standort an lisa
+- texte meiner rachel
+- texte onkel bobby
+- texte raymond hallo
+- texte rebecca handy zwei
+- texte robert handy
+- texte terry handy, ich fahre
+- texte theresa und sage ihm, ich werde seinen anruf in dreißig minuten beantworten
+- texte theresa, ich bin draußen
+- texte urlaubsliste an keith
+- texte wayne, dass ich ihn ein wenig später zurückrufen werde
+- textnachricht an katherine
+- textnachricht gerald
+- um drei uhr vierundvierzig ruft geralds handy an
+- versuch noch einmal jonathan anzurufen
+- verwende den spitznamen schwester für beverlys kontaktkarte
+- wähle gloria
+- wähle jennifer auf handy
+- was besagt olivia letzte nachricht
+- was hat eric watson gerade gesagt
+- was henry gerade gesagt hat
+- was henry gerade sagte
+- was ist der status von christopher jetzt?
+- was ist mein name
+- was kannst du tun
+- was war der letzte text, den ich an carol geschickt habe
+- wie ist das wetter heute
+- wie ist der status von jeremy
+- wie ist der status von maria auf skype
+- wie ist der status von roy?
+- wie lautet dein name
+- wie spät ist es jetzt
+- wirst du eine als nicht dringend markierte e-mail an james senden
+- wirst du eine als nicht dringend markierte e-mail an jason senden
+- 😊
+
+
+@ intent None usesFeatures i_1,i_0
+
+# q_gizkim_faq
+- . b-teams
+- abonnement für azure
+- adobe
+- adobe anwendungen bekommen
+- adobe cloud installieren
+- adressbuch
+- aktualisierung der software bei heimarbeit
+- aktualisierung des computers beim mobilen arbeiten
+- aktualisierung von software außerhalb des büros
+- ama in der zentrale drucken
+- ama laptop
+- ama laptop initialpasswort
+- ama-laptop win10-lizenzschlüssel
+- andere mfa methoden
+- ändern von teams bilder für gäste
+- anlegen eines ordners in dms
+- anlegen eines ordners in dms klassische ansicht
+- anlegen eines ordners in dms smart view
+- anlegen eines ordners in enterprise connect
+- anleitung onedrive
+- anleitung zu microsoft teams
+- anmeldung geht nicht
+- anruf in skype durchstellen
+- anruf in skype ohne rückfrage durchstellen
+- anrufe durchstellen skype for business
+- anrufweiterleitung konfigurieren
+- anrufweiterleitung skype for business
+- arbeitskreis einrichten
+- archiv erstellen
+- archiv outlook
+- audioeinstellungen teams
+- auf welchem betriebssystem läuft die authenticator app
+- aufzeichnen in skype
+- ausblick pst
+- ausdrucken
+- außenstruktur
+- authenticator app in meinem land nicht erlaubt
+- authenticator-app auf welche betriebssysteme
+- auto speichern in powerpoint
+- autospeicherung in office
+- backup
+- backup meines laptops
+- benachrichtigung über authenticator app
+- berechtigung nicht vorhanden
+- berechtigung skype aufzeichnungsfunktion
+- berechtigung vorhanden
+- berechtigungen für funktionspostfach
+- berechtigungsvergabe dms
+- berechtigungsvergabe sap
+- bereits angemeldet
+- bildschirm bleibt schwarz
+- bildschirme nicht erkannt
+- bin ich für die it-sicherheit zuständig
+- bios aktualisieren
+- bitte setzen sie mein passwort zurück
+- bonn
+- brauche ich für microsoft 365 internet?
+- breakout-räume in teams
+- büro
+- cheffunktion
+- communities zu favoriten hinzufügen
+- danke.
+- darf ich an einem zoom-meeting teilnehmen?
+- darf ich das wlan nutzen
+- darf ich genial.ly nutzen?
+- darf ich genially zur erstellung von präsentationen nutzen?
+- darf ich microsoft shifts nutzen?
+- darf ich webex nutzen?
+- darf ich zoom benutzen?
+- darf ich zoom nutzen?
+- das is immer noch ein ama notebook
+- das ist ein lenovo thinkpad. ich bin ima
+- das ist was für die mülltonne
+- datei in ec bearbeiten
+- datei in enterprise connect editieren
+- datei in ida hochladen
+- datei in klassischer ansicht editieren
+- datei in klassischer dms ansicht bearbeiten
+- datei in smart view bearbeiten
+- datei in smart view editieren
+- datei namen in teams ändern
+- datei namen in teams nachträglich bearbeiten
+- datei verloren in dms
+- datei wiederherstellen dms
+- dateien in onedrive hochladen
+- dateien in sharepoint hochladen
+- dateien in teams hochladen
+- dateien können in teams nicht hochgeladen werden
+- dateien löschen in onedrive
+- dateien löschen sharepoint
+- dateien löschen windows
+- dateien teilen mit ida
+- datensicherung
+- der externe nutzer hat noch gar kein account. wie lege ich das an.
+- der like button fehlt komplett
+- der mfa token ändern sich alle 30 sekunden
+- der reiter für ec in meinem ol ist verschwunden
+- die datei ist für die gemeinsame verwendung durch gesperrt.
+- die datei ist zu groß für das dms
+- die daten, die ich in einem teamkanal freigegeben habe, sind auf der registerkarte dateien nicht sichtbar.
+- dms
+- dms - datei löschen
+- dms - datei wiederherstellen
+- dms - klassische ansicht
+- dms auf englisch einstellen
+- dms datei editieren
+- dms dateien hochladen
+- dms in klassische ansicht wechseln?
+- dms klassische ansicht
+- dms klassische ansicht dateien hochladen
+- dms klassische ansicht ordner anlegen
+- dms ordner anlegen
+- dms ordner versehentlich gelöscht
+- dms projekte anlegen
+- dms smart view ansicht
+- dms smart view datei bearbeiten
+- dms smart view dateien hochladen
+- dms smart view ordner anlegen
+- dms wechsel classic view
+- dms wechsel zur smart ansicht
+- dms zugriff benötigt
+- dms-link bitte?
+- docking station wird nicht erkannt
+- drag&drop funktioniert nicht
+- drag&drop nicht möglich (ausland)
+- drucken
+- druckerei
+- druckt nicht
+- ec add in ist weg
+- ec in outlook fehlt
+- ec-add-in deaktiviert
+- eigenen planner anlegen
+- ein gast in teams kann sich nicht anmelden
+- ein gast verlor sein passwort für teams, wie kann er es zurücksetzen
+- ein gast will sein teambild verändern
+- einführung in ida
+- einladen externer gäste in teams
+- einrichtung der monitore
+- einsehen der gehaltsabrechnung ist nicht möglich
+- enterprise connect
+- enterprise connect add-in verschwunden
+- enterprise connect editieren
+- enterprise connect ist weg
+- enterprise connect ordner anlegen
+- enterprise voice skype for business
+- erhalte keine benachrichtigung in skype
+- erhalte keine benachrichtigungen in skype
+- erhalte keine nachrichten in skype
+- erstell mir doch bitte einen teams raum
+- erstell mir eine ida community
+- erstellen eines neuen teamsraums
+- erstellen von microsoft-teamräumen
+- es gibt so viele lösungen, wo finde ich einen überblick?
+- es gibt so viele tools
+- es gibt so viele tools. wo finde ich einen überblick
+- es gibt so viele werkzeuge
+- es ist ein privater pc.
+- excel
+- excel autospeicherung
+- excel datei nach absturz verschwunden?
+- excel datei verschwunden
+- excel datei wiederherstellen
+- excel ist abgestürzt
+- exchange migration
+- exchange online
+- expertisen angeben
+- externe in teams hinzufügen
+- fallen bei diesem anmeldeverfahren kosten an
+- fax schicken
+- fehler beim eintragen von urlaub in ess
+- fehler beim öffnen von zasone
+- fehler beim zugriff auf onedrive
+- fehler one drive
+- fenster
+- files nach upload in teams ändern
+- filetransfer
+- foto-/video-ablage webalben
+- frage zu hardware
+- frage zu it themen
+- frage zu onedrive
+- frage zu reisekosten
+- frage zu skype
+- frage zu winpaccs
+- frage zur aussonderung eines laptops
+- fragen zu ida
+- fragen zu ida communities
+- fragen zu mfa
+- fragen zu microsoft excel
+- fragen zu microsoft outlook
+- fragen zu microsoft powerpoint
+- fragen zu microsoft word
+- fragen zu onedrive
+- fragen zu sap
+- fragen zu sharepoint
+- fragen zu teams
+- fragen zu windows 10
+- fragen zum dms
+- fragen zum onboarding
+- fragen zum travel management
+- fujitsu
+- gäste in teams hinzufügen
+- geht onedrive auch per app?
+- gemeinsames postfach einrichten
+- gibt es eine alternative um mails in dms zu verschieben
+- gibt es eine chef-sek funktion in skype
+- gibt es eine möglichkeit nach ida communities zu suchen
+- gibt es eine möglichkeit, den planer auf meinem computer zu installieren?
+- gibt es eine skype anleitung
+- gibt es einen unterschied bei mfa zwischen internen und externen mitarbeiter/-innen? in ms teams müssen sich externe personen jedes mal per mfa anmelden, wenn ihr gerät im stand-by- oder locked-modus war. das ist nicht praktikabel und kostet unnötig zeit.
+- gibt es ida schulungen?
+- gibt es shortcuts in teams?
+- giz account
+- giz e-mail updated nicht bei outlook app
+- giz initialpasswort
+- gruppenchat erstellen
+- gut, kim? wie kann ich den namen und die e-mail-adresse einer gastperson bearbeiten?
+- hallo kim, ich habe ein problem bei der übernahme von aufgaben in outlook
+- hallo kim, was ist dms
+- hallo kim, wie installiere ich das enterprise connect update auf meinem ama notebook?
+- hallo kim, wie kann ich einen drucker anschließen
+- handy
+- hardware
+- hast du infos zu teams?
+- hey kim, wie kann ich ein papier drucken?
+- hilfe! ich habe einen infizierten anhang geöffnet
+- hilfe! ich habe mein passwort verloren!
+- how can i do windows updates?
+- i can't log in
+- i deleted a file
+- i deleted a file in word
+- i want to create an outlook archive
+- ich arbeite an einem lenovo x1
+- ich arbeite mit einem lenovo think pad.
+- ich bekomme beim drag&drop eine fehlermeldung
+- ich bekomme eine fehlermeldung, wenn ich mails in dms einfüge
+- ich bekommen einen authentifizierungsanruf, obwohl ich mich nicht anmelde
+- ich benötige das enterprise connect plugin für dms
+- ich benötige das passwort zurücksetzen limk?
+- ich benötige ein vvt-formular
+- ich bin im mobilen arbeiten und habe keine verbindung
+- ich bin in der außenstruktur. wer aus der it unterstützt mich hier
+- ich bin mitglied eines teams, aber ich kann es nicht sehen
+- ich brauche die updates.
+- ich brauche ein bestimmtes it-tool, um meine arbeit erledigen zu können. an wen wende ich mich
+- ich brauche ein neues profile picture
+- ich brauche ein teams
+- ich brauche eine dms berechtigung
+- ich brauche eine dockingstation für meinen laptop
+- ich brauche eine ida community
+- ich brauche eine sap berechtigung
+- ich brauche eine sfb schulung
+- ich brauche eine software
+- ich brauche eine windows 10 lizenz
+- ich brauche einen backup meiner daten
+- ich brauche einen teams kanal
+- ich brauche enterprise connect
+- ich brauche it unterstützung
+- ich brauche microsoft visio, wo kriege ich es her?
+- ich brauche ms project
+- ich brauche openshot
+- ich brauche sie, um mir zu helfen, eine ida-seite zu finden
+- ich brauche visio
+- ich finde ec nicht mehr in outlook
+- ich frage mich, ob ich zoom innerhalb der giz verwenden kann?
+- ich fragte nach whiteboard!
+- ich glaube das ist spam
+- ich glaube ich habe einen virus erhalten
+- ich hab mein kennwort vergessen
+- ich hab mein passwort verloren
+- ich habe auf den link in einer spam mail geklickt
+- ich habe den anhang in einer spam mail geöffnet
+- ich habe ein problem mit winpaccs, wie soll ich das machen?
+- ich habe eine datei gelöscht
+- ich habe eine datei in word gelöscht
+- ich habe eine e-mail gelöscht
+- ich habe eine falsche e-mailadresse eingetragen
+- ich habe eine frage zu mfa
+- ich habe eine frage zum travel management
+- ich habe eine spam geöffnet
+- ich habe eine spam mail erhalten
+- ich habe einen externen benutzer in giz teams aufgenommen. aber sein name ist falsch. können sie den namen korrigieren?
+- ich habe einen teams room angefordert, aber es wird nicht für den zimmerbesitzer angezeigt
+- ich habe e-mails in outlook gelöscht
+- ich habe im dms eine datei gelöscht
+- ich habe in outlook mails gelöscht
+- ich habe in sharepoint eine datei gelöscht
+- ich habe in teams einen gast der sein profilbild ändern möchte
+- ich habe keine zugriff auf ida
+- ich habe meiin kennwort vergessen
+- ich habe mein ama-passwort für meinen laptop vergessen
+- ich habe mein passwort für meinen laptop vergessen
+- ich habe mein passwort geändert und komme nicht mehr im laptop rein
+- ich habe mein passwort vergeseen
+- ich habe mein passwort vergessen
+- ich habe mein passwort vergessen. wie soll ich das machen?
+- ich habe mein pw vergessen
+- ich habe mien passwort vergessen
+- ich habe probleme bei der anmeldung am laptop
+- ich habe spam geöffnet
+- ich habe versehentlich e-mails in outlook gelöscht
+- ich kann den von mir hinzugefügten gast-benutzer in teams nicht finden.
+- ich kann die authenticator app nicht herunterladen
+- ich kann die dateien, die ich in meinem teams channel teile, nicht sehen.
+- ich kann die mail adresse eines mitarbeiters im adressbuch nicht finden.
+- ich kann drag&drop im dms nicht nutzen
+- ich kann eine große datei nicht ins dms hochladen
+- ich kann in skype nichts hören
+- ich kann keine mails mehr ins dms verschieben
+- ich kann keine ordner direkt im dms kopieren
+- ich kann keine teambesprechung über outlook erstellen. der server ist nicht erreichbar
+- ich kann meine mails nicht ins dms verschieben
+- ich kann meinen chatverlauf mit einem kollegen in teams nicht sehen
+- ich kann meinen lt nicht starten
+- ich kann mich am laptop nicht anmelden
+- ich kann mich an einem ama laptop nicht anmelden
+- ich kann mich in outlook nicht anmelden
+- ich kann mich in teams nicht anmelden
+- ich kann mich nicht anmelden
+- ich kann mich nicht auf outlook einloggen.
+- ich kann mich nicht bei giz jobportal anmelden.
+- ich kann mich nicht bei teams anmelden
+- ich kann mich nicht einloggen
+- ich kann mich nicht einloggen.
+- ich kann mich nicht in meinem ama-laptop anmelden
+- ich kann mich nicht in outlook anmelden
+- ich kann mich nicht in sync toy anmelden
+- ich kann mich nicht in teams anmelden
+- ich kann mich nicht mehr in outlook einloggen
+- ich kann nicht mehr drucken.
+- ich kann nichts hören
+- ich kann outlook nicht öffnen
+- ich kann outlook nicht öffnen.
+- ich kann sap nicht mehr nutzen
+- ich komme nicht ins wlan rein
+- ich komme nicht mehr in meinem ama laptop rein
+- ich krieg keine ergebnisse bei der outlook suche
+- ich kriege mein fujitsu laptop nicht zum starten
+- ich lud eine externe person ein, teams beizutreten, aber ich schrieb ihren namen falsch. können sie es beheben?
+- ich lud einen gast in teams ein, er kann sich nicht einloggen, obwohl er die giz-website sieht
+- ich meine, was ist das standard-passwort von outlook für einen neuen benutzer
+- ich meine, was ist mobile device management (mdm)?
+- ich möchte adobe photoshop auf meinem rechner
+- ich möchte auf ein gemeinsamen postfach zugreifen
+- ich möchte auf ein weiteres postfach in outlook zugreifen
+- ich möchte auf einen bestimmten teamraum zugreifen
+- ich möchte auf einen dms ordner zugreifen
+- ich möchte benachrichtigungen in teams erhalten
+- ich möchte community neuigkeiten per mail erhalten
+- ich möchte dateien hochladen
+- ich möchte dateien löschen
+- ich möchte dateien mit externen partnern teilen
+- ich möchte die giz-schrift haben
+- ich möchte die rechte eines gastes erweitern, damit er teams treffen
+- ich möchte die schrift gravur installieren.
+- ich möchte edge chromium installieren
+- ich möchte ein anderes profilbild in ida verwenden
+- ich möchte ein archiv erstellen
+- ich möchte ein ida video zu laden
+- ich möchte ein microsoft teams erstellen
+- ich möchte ein neues profilbild haben
+- ich möchte ein outlook archiv erstellen
+- ich möchte ein outlook-archiv erstellen
+- ich möchte ein sharepoint dokument wiederherstellen
+- ich möchte ein sharepoint-dokument freigeben
+- ich möchte ein team bilden
+- ich möchte ein team erzeugen
+- ich möchte ein team-raumbesitzer sein
+- ich möchte ein teams chat anpinnen
+- ich möchte ein teams kanal erstellen
+- ich möchte ein ticket für die verlustmeldung meines alten laptops erstellen.
+- ich möchte ein video ins dms hochladen, aber das funktioniert nicht
+- ich möchte eine community erstellen
+- ich möchte eine datei verpacken
+- ich möchte eine funktionsmailbox einrichten
+- ich möchte eine gast in teams einladen
+- ich möchte eine große datei teilen
+- ich möchte eine ida community folgen
+- ich möchte eine ida-seite erstellen
+- ich möchte eine kennung für einen externen mitarbeiter einrichten
+- ich möchte eine neue software installieren
+- ich möchte eine projektakte anlegen
+- ich möchte eine schulung für teams haben
+- ich möchte eine software installieren
+- ich möchte eine teambesprechung aufzeichnen
+- ich möchte eine teams besprechung aufzeichnen
+- ich möchte eine videokonferenz starten
+- ich möchte eine website erstellen
+- ich möchte einem hashtag folgen
+- ich möchte einem kollegen eine sharepoint datei teilen
+- ich möchte einem kollegen followen
+- ich möchte einen anruf weiterleiten
+- ich möchte einen arbeitskreis einrichten, wie geht das denn
+- ich möchte einen kanal erstellen
+- ich möchte einen neuen teamraum schaffen
+- ich möchte einen outlook archiv erstellen
+- ich möchte einen raum erstellen
+- ich möchte einen raum in teams anlegen. wie?
+- ich möchte einen raum in teams erstellen
+- ich möchte einen raum schaffen
+- ich möchte einen sharepoint-fischhändler teilen.
+- ich möchte einen teamkanal stummschalten
+- ich möchte einen teamraum schaffen
+- ich möchte einen teams chat anpinnen
+- ich möchte einen teams kanal erstellen
+- ich möchte einen teams raum arstellen
+- ich möchte einen teams raum erstellen
+- ich möchte einen teams raum erstlelen
+- ich möchte einen teams raum löschen
+- ich möchte einen temamsräume erstellen
+- ich möchte einer ida community beitreten
+- ich möchte etwas erstellen
+- ich möchte etwas in sharepoint teilen
+- ich möchte gäste in mein team einladen
+- ich möchte gästen mehr rechte in teams geben
+- ich möchte gerne etwas drucken
+- ich möchte große dateien mit einem externen partner teilen
+- ich möchte große dateien mit externen austauschen
+- ich möchte große dateien teilen
+- ich möchte große dateien versenden
+- ich möchte ida neuigkeiten per mail erhalten
+- ich möchte in dms eine datei bearbeiten
+- ich möchte in onedrive etwas wiederherstellen
+- ich möchte in skype for business anrufe durchstellen
+- ich möchte in skype for business einen anruf mit rückfragen durchstellen
+- ich möchte in skype for business einen anruf ohne rückfragen durchstellen
+- ich möchte in teams als beschäftigt gezeigt werden
+- ich möchte keine teams benachrichtigung mehr erhalten
+- ich möchte mail benachrichtigungen zu ida erhalten
+- ich möchte mehr über teams erfahren
+- ich möchte mein kennwort ändern
+- ich möchte mein mfa zurück setzen
+- ich möchte mein onedrive-dokument freigeben
+- ich möchte mein passwort ändern
+- ich möchte mein passwort zurücksetzen
+- ich möchte mein profilbild ändern
+- ich möchte mein profilbild wechseln
+- ich möchte mein skype for business telefon für mfa nutzen
+- ich möchte meine audiodaten teilen, während ich meinen bildschirm in teams teile
+- ich möchte meine audioeinstellungen in skype ändern
+- ich möchte meine daten sichern
+- ich möchte meine daten speichern
+- ich möchte meine excel-datei freigeben
+- ich möchte meine expertise in ida angeben
+- ich möchte meine kenntnisse hinzufügen
+- ich möchte meine office managerin als weiterleitung bei skype for business einrichten
+- ich möchte meine skype audioeinstellungen ändern
+- ich möchte meinen kollegen in einem beitrag markieren
+- ich möchte meinen teamstatus ändern
+- ich möchte mfa einrichten
+- ich möchte mich im wlan anmelden
+- ich möchte mit externen partnern zusammen arbeiten
+- ich möchte mit ida arbeiten
+- ich möchte mit skype telefonieren
+- ich möchte zimmerbesitzer in teams sein
+- ich möchte, dass mein gast einladungen zu teambesprechungen sendet
+- ich muss eine website erstellen
+- ich muss für die drag&drio ansicht im dms etwas installieren? darf ich das
+- ich muss meine daten sichern
+- ich nutze einen lenovo
+- ich rezensiere keine e-mail mehr in outlook
+- ich soll office 365 installieren, wie geht das
+- ich suche die giz-gravur schrift
+- ich suche eine ida-community
+- ich suche einen dockingstation für meinen laptop
+- ich suche ida communities
+- ich suche it
+- ich verwende einen lenovo-laptop, ima
+- ich weiß immer noch nicht, was dms ist
+- ich weiß nicht, wo ich einen ak einrichten kann
+- ich will ein team im team zusammenstellen.
+- ich will ein team zusammenstellen.
+- ich würde gerne drag&drop im dms nutzen
+- ich würde gerne ein video in einer ida community hochladen
+- ich würde gerne ein video in ida community hochladen
+- ich würde gerne eine sitzung aufnehmen
+- ich würde gerne eine sondersoftware beschaffen
+- ich würde gerne einem kollegen folgen
+- ich würde gerne einen beitrag erstellen
+- ich würde gerne etwas posten
+- ich würde gerne große dateien teilen
+- ich würde gerne in ida was posten
+- ich würde gerne software xy installieren
+- ida
+- ida beitrag finden
+- ida communities zu favoriten
+- ida community als favorit
+- ida community erstellen
+- ida hashtag folgen
+- ida lizenz
+- ida post finden
+- ida post suchen
+- ida profilbild
+- ida themen
+- ihr postfachlimit wurde überschritten
+- ima laptop
+- ima laptop anmeldung geht nicht
+- ima laptop passwort ist falsch
+- ima laptop passwort wird nicht angenommen
+- in der innenstruktur drucken
+- in dms hochladen
+- in dms-halt
+- in klassischer ansicht hochladen
+- in meinem outlook ist ec nicht mehr da
+- in onedrive hochladen
+- in sharepoint hochladen
+- in smart view hochladen
+- informationen zu live-events
+- infos zu microsoft authenticator
+- infos zur authenticator app
+- infos zur mfa app
+- infos zur teams app
+- initial password accounting
+- initial passwort cashbook
+- initialpasswort
+- initialpasswort für einen ama rechner
+- innenstruktur
+- innenstruktur anmeldung geht nicht
+- installierung von monitoren
+- intranet
+- irgendwie kann ich mich nicht in outlook anmelden
+- irgendwie kann ich outlook nicht öffnen
+- ist die authenticator-app für android-, ios apple- und windows-smartphones verfügbar
+- ist die mfa vergleichbar mit der neuen europäischen online-banking-authentifizierung
+- ist es für die anmeldung von bedeutung, ob ich mich im in-oder ausland aufhalte bzw. wo meine handynummer registriert ist
+- ist es möglich, die planner app auf einem computer zu installieren?
+- ist es möglich, einen planer zu drucken?
+- ist es nicht sinnvoller, ein "richtiges" smartphone zu kaufen, als ein low-end-gerät, um es zum beispiel für ms teams und andere mobile office 365-anwendungen zu nutzen
+- ist für microsoft 365 ein internetzugang erforderlich?
+- ist whiteboard schon verfügbar?
+- ist whiteboard verfügbar?
+- it-projekt tracker?
+- jobportal jobs.giz.de
+- kanäle in teams geheim halten
+- kanäle in teams nicht für jeden sichtbar
+- kann die mailadresse eines gasts geändert werden?
+- kann die mailadresse eines gasts geändert werden? teams
+- kann die mfa so konfiguriert werden, dass die mac-adresse des geräts erkannt wird und so die mfa seltener eingesetzt werden muss
+- kann ein gast sein profilbild in teams ändern?
+- kann für die mfa statt der microsoft-app auch die google authenticator-app oder jede andere totp (time-based one-time password)-app verwendet werden
+- kann für mfa die telefonnummer der office-managerin hinterlegt werden
+- kann ich auch das skype for business-telefon für mfa nutzen, wenn es in bonn ab 2020 keine festnetztelefone mehr gibt
+- kann ich auch verschiedene telefone / handys bzw. mehrere telefonnummern für die anmeldung nutzen
+- kann ich das whiteboard mit externen verwenden?
+- kann ich das whiteboard nutzen?
+- kann ich dazu beitragen, dass du schlauer wirst
+- kann ich ein neues dokument im browser erstellen?
+- kann ich einem tag folgen
+- kann ich einen ida kalender in outlook verknüpfen
+- kann ich einen post auch liken
+- kann ich einer ida community folgen
+- kann ich fotos und video im dms speichern
+- kann ich für mfa die nummer von einem kollegen hinterlegen
+- kann ich für mfa eine nummer mit einem kollegen teilen
+- kann ich gäste zu teams einladen
+- kann ich in einer ida community videos hochladen
+- kann ich in onedrive teilen
+- kann ich in teamraum auch gäste hinzufügen?
+- kann ich kollegen folgen
+- kann ich mfa auf dienstreise nutzen
+- kann ich mfa im ausland nutzen?
+- kann ich mind manager installieren?
+- kann ich nur mfa nutzen
+- kann ich office 365 installieren
+- kann ich selber einen ak erstellen
+- kann ich sharepoint dateien synchronisieren?
+- kann ich vertrauliche daten auf onedrive setzen?
+- kann jeder eine sharepoint liste erstellen?
+- kann man auf filetransfer nur mit dem ie zugreifen?
+- kann man ein gruppenchat in teams erstellen
+- kann man ein gruppenchat in teams erstellen?
+- kann man hashtags folgen
+- kann mich an meinem ama computer nicht anmelden
+- kann mich in teams nicht anmelden
+- kann mich nicht anmelden
+- kann mich nicht einloggen
+- kann onedrive eine online-zusammenarbeit in echtzeit leisten?
+- kannst du für mich mein passwort zurücksetzen
+- kannst du mir das limit für filetransfer sagen?
+- kannst du mir mit onedrive helfen?
+- kannst du mir sagen, wie ich microsoft visio installieren kann?
+- kannst du mir sagen, wo ich in sharepoint eine datei teilen kann?
+- kannst du mir was zu ida sagen
+- kannst du mir was zum community manager sagen
+- kannst du von menschen lernen die mit dir chatten
+- kein diensthandy für mfa
+- kein zugriff auf one drive
+- kein zugriff auf outlook
+- kein zugriff auf zas
+- keine aufzeichnungsrechte in skype
+- keinen zugriff auf teams datei
+- kim, wie klärt man den cache von teams?
+- kim, wie mache ich ida.project seite?
+- klassische ansicht
+- komm ich kann teams erstellen
+- können mehrere mitarbeiter/-innen ein gemeinsames handy / telefon für die mfa nutzen
+- können sie ec in ol wieder einbinden
+- können sie für mich einen ak einrichten
+- können sie meine daten sichern
+- können sie mir das wlan passwort mitteilen
+- können sie mir von ms planner erzählen?
+- konto gesperrt
+- kostet mfa
+- laptop
+- laptop auf neuesten stand bringen
+- laptop dateien sichern
+- laptop daten sichern
+- laptop fährt nicht hoch
+- laptop geht nicht mehr an
+- laptop hat sich aufgehangen
+- laptop kamera nicht gefunden
+- laptop schaltet sich im laufenden betrieb dauernd aus
+- laptop startet nicht
+- laptop-daten speichern
+- lenovo
+- lenovo - ima
+- lenovo fährt nicht hoch
+- lenovo geht nicht an
+- lenovo hat
+- lenovo ima
+- lenovo startet nicht
+- lenovo think pad
+- lenovo, aber
+- lenovo, ida, office365, ausblick ... alles
+- lern-giz
+- lösungsbox
+- mail pst
+- mail wird nicht im adressbuch angezeigt
+- mehrere telefone in mfa nutzen
+- mein account ist gesperrt
+- mein ama laptop muss aktiviert werden
+- mein ama laptop verlangt eine aktivierung
+- mein ama laptop wurde neu aufgebaut und muss aktiviert werden
+- mein computer fährt nicht mehr hoch
+- mein computer startet nicht
+- mein computer wird nicht gestartet
+- mein fujitsu fährt nicht hoch
+- mein fujitsu startet nicht
+- mein gerät verloren
+- mein headset funktioniert nicht
+- mein kennwort zurücksetzen
+- mein konto ist gesperrt
+- mein laptop fährt nicht mehr hoch
+- mein laptop sagt, mein passwort wäre falsch
+- mein laptop startet nicht
+- mein laptop wurde gestohlen. was soll ich tun?
+- mein laptop zurück setzen
+- mein monitor geht nicht an.
+- mein outlook startet nicht
+- mein passwort funktioniert nicht
+- mein passwort ist weg
+- mein passwort läuft ab
+- mein pc startet nicht
+- mein teams stürzt immer ab
+- mein zertifikat auf elearning-giz wird nicht angezeigt.
+- meine anmeldung funktioniert nicht
+- meine dms datei ist verschwunden
+- meine dms struktur ist in outlook nicht mehr sichtbar
+- meine frage war, wie man ms-teams räume erstellt
+- meine kamera funktioniert nicht
+- meine kolleg*innen können mich in skype for business nicht oder nur sehr schlecht hören, obwohl ich mein headset auf habe. was kann ich machen
+- meine outlook-box ist gesättigt, wie kann ich meine e-mails archivieren?
+- meine rds tools gehen nicht
+- meine teams werden keine neuen mitglieder aufnehmen
+- mfa
+- mfa alternative app
+- mfa anmelde ohne internet
+- mfa anmeldemöglichkeiten
+- mfa anmeldung externe
+- mfa einstellungen webseite
+- mfa geht nicht
+- mfa gerät verloren
+- mfa methoden
+- mfa mit mehreren smartphones
+- mfa mit skype for business
+- mfa mit skype for business telefon
+- mfa mit telefonnummer von einem kollegen
+- mfa mit zwei telefonen
+- mfa oder giz smartphone
+- mfa ohne internet nutzen
+- mfa ohne passwort nutzen
+- mfa smartphone empfehlung
+- mfa sms code senden
+- mfa sprachanruf
+- mfa themen
+- mfa zurücksetzen
+- mfa-reset
+- microsoft excel
+- microsoft flows
+- microsoft teams
+- microsoft word
+- mit welchem microsoft konto soll ich mich anmelden, um onedrive zu nutzen?
+- mit wem kann ich onedrive dateien teilen?
+- mitglieder hinzufügen
+- mitglieder hinzufügen teams
+- möchten sie wissen, wie sie in teams leben können?
+- monitor
+- monitor defekt
+- monitor funktioniert nicht
+- monitor hardwareeinstellungen
+- monitor hardwareeinstellungen prüfen
+- monitor ist kaputt
+- monitore funktionieren nicht
+- monitore werden nicht erkannt
+- ms teams datei gesperrt
+- ms teams kanal, von privat nach öffentlich
+- msg-ablage in dms
+- ms-teams, lenovo, windows
+- muss die mfa nur beim login mit kennung und passwort eingesetzt werden oder jedes mal, wenn eine anwendung wie ms teams oder sharepoint geöffnet wird
+- nein! wie kann ich meinen mfa einstellen?
+- nein, ich möchte aufgaben in outlook annehmen. eine andere person weist mir eine aufgabe zu, die ich aber nicht übernehmen kann
+- nein, ich suche hilfe in der app access.
+- nein, ich war auf der suche nach ida sharepoint news: wie zu veröffentlichen?
+- nein. das bild wird nicht angezeigt
+- nein. ich möchte die maximale anzahl von personen in einem team wissen.
+- nein. wie viele personen können in einem team sein?
+- neue teams besprechung
+- neues outlook profil erstellen
+- no-id mailbox erstellen
+- notebook kamera kann nicht gefunden werden
+- oder mache ich ein channel-team?
+- office 365 - installation außenstruktur
+- ok - wie kann ich nachrichten in ida veröffentlichen?
+- onboarding
+- one drive
+- one drive einrichten
+- one note notitzbuch freischalten
+- onedrive
+- onedrive aufbewahrungszeit papierkorb
+- onedrive eingerichtet?
+- onedrive funktioniert nicht
+- onedrive gelöschte dateien aufbewahrungszeit
+- onedrive link
+- onenote notitzbuch teilen
+- onenote notizbuch freigeben
+- onenote notizbuch freischalten
+- openshot
+- outlook
+- outlook adressbuch mail adresse nicht zu finden
+- outlook app mails laden nicht
+- outlook app synchronisiert nicht
+- outlook archiv erstellen
+- outlook archivdatei erstellen
+- outlook bricht ständig ab
+- outlook fährt nicht hoch
+- outlook ist im offline modus
+- outlook keine verbindung
+- outlook konfiguration
+- outlook lässt sich nicht mehr öffnen
+- outlook nicht verbunden
+- outlook offline modus
+- outlook öffnet sich nicht
+- outlook profil einrichten
+- outlook profil ist defekt
+- outlook profil neu einrichten
+- outlook profilbild
+- outlook pst datei erstellen
+- outlook pst erstellen
+- outlook startet nicht
+- outlook suche geht nicht
+- outlook und ida kalender synchronisieren
+- outlook verbindet sich nicht
+- outlook?
+- password cashbook
+- passwort bei ama rechner ist falsch
+- passwort für ama-lt vergessen
+- passwort konformität
+- passwort vergessen
+- passwort wlan
+- pc geht nicht an
+- pdf
+- pdf dateien umwandeln
+- pdf in docs umwandeln
+- pdf in word umwandeln
+- pdf?
+- personen einladen in teams
+- postfachlimit überschritten
+- power point
+- powerpoint
+- printer
+- printing
+- profil bild
+- profilbild im intranet ändern
+- profilbild in ida ändern
+- profilbild in skype for business ändern
+- profile picture intranet
+- programm von einem laptop auf desktop übertragen
+- programm weitergeben aussenstruktur
+- programm weitergeben innen struktur
+- projekte in digits
+- prüfcode aus authenticator app
+- pst archiv
+- pur
+- raum erstellen
+- reise anlegen
+- reise manager
+- reisekosten
+- reisemanager
+- rollen und berechtigungen
+- sap
+- sap auf privaten rechner
+- sap beim mobilen arbeiten nutzen
+- sap beim mobilen arbeiten starten
+- sap ist abgestürzt
+- sap mobil nutzen
+- sap mobil zugreifen
+- sap öffnen nicht im netz
+- sap sagt mein benutzer wäre gesperrt
+- sap von zuhause öffnen
+- sd berlin
+- sd bonn
+- sd eschborn
+- seite erstellen
+- setzt mfa den besitz eines dienst-smartphones voraus
+- sfb in outlook fehlt
+- sfb telefonat durchführen
+- share point
+- sharepoint
+- sharepoint berechtigung
+- sharepoint dateien gelöscht
+- sharepoint dokument ältere version wiederherstellen
+- shortcut-teams
+- sichern von daten auf dem laptop
+- sie können sich nicht registrieren
+- sind dateien in dms verschwunden
+- sind die 15 tage die filetransfer meine dateien speichert erweiterbar?
+- sind meine auf onedrive gespeicherten dokumente auch offline verfügbar?
+- skype
+- skype add in ist weg
+- skype add-in verschwunden
+- skype anrufe weiterleiten
+- skype audioeinstellungen
+- skype besprechung button ist weg
+- skype for business
+- skype for business aufzeichnen
+- skype for business aufzeichnen berechtigung vorhanden
+- skype for business schulung
+- skype for business schulungsvideo
+- skype for business telefonat durchführen
+- skype für business-video-tutorial
+- skype für unternehmen
+- smart view
+- sms code senden
+- so aktivieren sie die automatische antwort in outlook
+- software beantragen
+- software übertragen ama
+- software übertragen ima
+- software von einem gerät auf anderes übertragen
+- software zwischen laptop übertragen
+- sofware von adobe installieren
+- soll ich den namen eines kanals in teams ändern?
+- solution box
+- solutionbox
+- sound umstellen
+- soundeinstellungen umstellen
+- spam mail mit anhang
+- spam mail mit link
+- sprache in dms ändern
+- suche in outlook funktioniert nicht
+- team
+- teams
+- teams anleitung
+- teams audio
+- teams audioeinstellungen
+- teams auf den desktop installieren
+- teams auf laptop installieren
+- teams aufzeichnung
+- teams benachrichtigungen aktivieren
+- teams besprechung erstellen
+- teams besprechung verschicken
+- teams channel stummschalten
+- teams chat anpinnen
+- teams chat pinnen
+- teams chatten anpinnen
+- teams datei anfügen
+- teams datei einfügen
+- teams datei locked
+- teams einladung gast nochmal versenden
+- teams favoriten hinzufügen
+- teams gast einladen
+- teams gast kann sich nicht anmelden
+- teams group chat
+- teams gruppenchat erstellen
+- teams kanal erstellen
+- teams -kanal erstellen
+- teams kanal muten
+- teams kanal, nachträglich öffentlich stellen
+- teams kanäle beschränken
+- teams kanäle nur für bestimmte personen
+- teams kanäle unsichtbar machen
+- teams kein ton
+- teams kollegen erwähnen
+- teams live demo
+- teams mit externen arbeiten
+- teams mit mehreren chatten
+- teams mit telefon
+- teams mitglied hinzufügen
+- teams mitglieder hinzufügen
+- teams möchte nicht mehr starten
+- teams nutze ich
+- teams passwort vergessen
+- teams personen hinzufügen
+- teams personen markieren
+- teams profilbild
+- teams profilbild ändern
+- teams raum
+- teams raum anlegen
+- teams raum erstellen
+- teams raum stummschalten
+- teams raum verlassen
+- teams registerkarte hinzufügen
+- teams reiter erstellen
+- teams shortcuts+
+- teams soundeinstellungen
+- teams tastenkombinationen
+- teams termin versenden
+- teams verknüpfungen
+- teams video integrieren
+- teams-besprechung versenden
+- teams-chat
+- teamstreffen?
+- telefon
+- telefonieren mit skype
+- telefonnumer anrufen in skype for business
+- terminansicht im outlook kalender
+- themen rund um das onboarding
+- thinkpad
+- ton umstellen
+- toneinstellungen ändern
+- travel management
+- updates laptop
+- urlaub lässt sich nicht eintragen
+- usb bitlocker
+- verlustbericht
+- video in teams einfügen
+- video in teams kanal posten
+- video in teams teilen
+- videokonferenzanlage
+- videos in ida community einbinden
+- videos in ida community einfügen
+- wann löscht filetransfer die geteilten daten?
+- wann wird die iso27001-zertifizierung durchgeführt?
+- war der mfa sprachanruf?
+- war mfa?
+- warum ändert sich die nummer in der authenticator-app alle 30 sekunden? ist das richtig oder muss ich das stoppen
+- warum funktoniert das vergütungsmonitoring bei einer grösseren anzahl von mitarbeitern nicht
+- warum gibt es keinen like button
+- warum kann ich die ida communities nicht sehen
+- warum kann ich mich an meinem neuen ima -laptop nicht anmelden
+- warum werden für die mfa keine hardtoken eingesetzt
+- was bedeutet es, daten mit meinem lokalen computer zu synchronisieren?
+- was dürfen gäste in teams
+- was heisst ms flow?
+- was ist das anfängliche giz-passwort?
+- was ist das outlook-standardkennwort?
+- was ist denn mein initialpasswort?
+- was ist der link, um mein outlook-kennwort zu ändern
+- was ist der unterschied zwischen mdm und mam?
+- was ist die rolle eines community manager
+- was ist ein community manager
+- was ist ein microsoft konto und warum benötige ich es für microsoft 365
+- was ist ein rff
+- was ist eine sap model company?
+- was ist ida?
+- was ist mdm
+- was ist mdm in der giz
+- was ist sharepoint?
+- was ist wsus
+- was kann ich tun, wenn ich mich für die mfa anmelden möchte, aber eine falsche bzw. nicht erreichbare festnetznummer im system hinterlegt ist
+- was kostet eine ms visio lizenz?
+- was mache ich, wenn ich einen authentifizierungs-anruf erhalte, mich aber gerade gar nicht angemeldet habe
+- was macht ein community manager
+- was muss das passwort enthalten
+- was muss die mitarbeiterin machen, für die ein onenote notizbuch freigeschaltet wird?
+- was muss ich angeben, um einen gast in teams einzuladen?
+- was muss ich tun, um microsoft 365 oder office zu installieren?
+- was muss ich tun, um microsoft 365 zu deinstallieren?
+- was muss ich tun, wenn ich das gerät, über das meine authentifizierung normalerweise läuft, verloren oder nicht mehr zur verfügung habe
+- was passiert nach ablauf meines vertrags mit den dateien, die ich auf onedrive gespeichert habe?
+- was passiert, wenn ein teams gast sich nicht vollständig registriert?
+- was passiert, wenn ich eine onedrive-datei lösche? kann ich es zurückbekommen?
+- was passiert, wenn sich ein gast nicht vollständig registriert?
+- was sind die mindestanforderungen für die verwendung von teams?
+- was sind die service desk öffnungszeiten ?
+- was sind teams?
+- was wird benötigt um einen teams gast einzuladen?
+- was wird vom gast benötigt?
+- was wird vom teams gast benötigt, um ihn einladen zu können
+- was wird vom teams gast benötigt, um ihn einladen zu können?
+- was wird vom teams gast benötiugt, um ih einladen zu können?
+- was wissen sie über ms access
+- webseite für mfa konfiguration
+- wechsel zur klassischen ansicht
+- wechsel zur smart view
+- wei kann ich einen gast zu teams einladen?
+- weiß
+- weitere informationen zur ms authenticator-app:
+- welche angaben benötige ich, um einen teams gast einzuladen?
+- welche angaben muss ich machen, um einen teams gast einzuladen?
+- welche einschränkung hat ein gast in teams?
+- welche einschränkung hat ein gast in teams?=
+- welche einschränkungne haben gäste in teams
+- welche kennung muss beim wlan eingegeben werden
+- welche mfa-methoden gibt es
+- welche mobilen apps stehen für microsoft 365 oder office zur verfügung?
+- welche projekte gibt es in digits
+- welche tastenkombinationen gibt es für teams?
+- welche teams tastenkombis gibt es?
+- welche trainings gibt es?
+- welche verknüpfungen haben teams?
+- wenn ein privates smartphone für die mfa genutzt wird, kann das dann folgen für die einführung des mobile device management (mdm) haben
+- wenn ich eine datei lösche, ist sie irreversibel verschwunden
+- wenn ich in outlook einen unterordner erstellen möchte, dauert es sehr lang bis der ordner auch im stammbaum angezeigt. wie kann das beschleunigen?
+- wenn ich mails im dms ablegen will, passiert nichts
+- wenn ich videos / fotos ins dms hochlade, bekomme ich eine fehlermeldung
+- wer darf communities erstellen
+- wer darf weitergehende berechtigungen (sap / dms) für mich beantragen
+- wer hat rechte am planer?
+- wer hat rechte an einem planer?
+- wer ist für informationssicherheit verantwortlich?
+- wer ist ida?
+- wer ist rafael?
+- wer kann mir ida zeigen
+- wer kümmert sich um die erstellung einer community
+- wer oder was ist ida??
+- wer unterstützt mich in der it
+- wer vergibt mir eine ida lizenz
+- werkzeuge
+- where can i find all the tools?
+- whiteboard
+- whiteboard kann bei mir nicht installiert werden
+- wie aktiviere ich onedrive
+- wie aktualisiere ich microsoft times
+- wie änder ich in teams mein hintergrund?
+- wie ändere ich die audioeinstellungen in skype
+- wie ändere ich mein passwort
+- wie ändere ich mein passwort?
+- wie ändere ich mein profilbild in ida
+- wie ändere ich mein profilbild von ms. teams?
+- wie ändere ich meinen teams hintergrund?
+- wie archiviere ich meine e-mails in outlook?
+- wie archivieren sie dienachrichten von outlook-post?
+- wie archiviert man dienachrichten des posteingangs?
+- wie auch immer wissen sie bereits über power-apps
+- wie beantrage ich den gastzugang?
+- wie beantrage ich einen verteiler
+- wie beantrage ich urlaub
+- wie bearbeite ich den namen einer gastperson?
+- wie bekomme ich das whiteboard?
+- wie bekomme ich die company portal app?
+- wie bekomme ich ein video in die seitenleiste einer ida page?
+- wie bekomme ich eine ida lizenz
+- wie bekomme ich eine office lizenz
+- wie benenne ich teams-räume mit gästen?
+- wie binde ich einen planner ein?
+- wie binde ich whiteboard ein?
+- wie binde ich whiteboard in teams ein?
+- wie bringe ich meinen pc auf neuesten stand
+- wie eine e-mail zu senden?
+- wie erhalte ich eine lizenz für askallo software?
+- wie erstelle ich ein pdf dokument?
+- wie erstelle ich eine digitale unterschrift
+- wie erstelle ich einen gruppen chat in teams?
+- wie erstelle ich einen neuen channel in teams?
+- wie erstelle ich einen neuen chat in teams?
+- wie erstelle ich einen neuen ordner in onedrive?
+- wie erstelle ich einen neuen ordner?
+- wie erstelle ich einen serienbrief?
+- wie erstelle ich einen teamraum?
+- wie erstelle ich einen teams kanal
+- wie erstelle ich einen teams raum
+- wie erstelle ich einen teams raum?
+- wie erstelle ich einene teams raum
+- wie finde ich mein passwort
+- wie finde ich meine dateien auf onedrive?
+- wie finde ich pur in ida
+- wie folge ich einer ida community
+- wie füge ich eine datei in teams ein?
+- wie füge ich einen gast in teams hinzu?
+- wie führe ich pdf's zusammen?
+- wie funktioniert die multifaktorauthentifizierung?
+- wie funktioniert ida
+- wie funktioniert skype for business
+- wie gehe ich vor, wenn ich die app nutzen möchte, sie aber an meinem standort nicht herunterladen kann / darf
+- wie geht ida
+- wie groß ist das foto, das als hintergrundbild in einer teambesprechung platziert werden soll?
+- wie groß ist das titelbild für ein teammeeting?
+- wie groß ist der onedrive speicher, den ich mit microsoft 365 erhalte?
+- wie groß ist meine datei
+- wie groß ist meine datei?
+- wie groß können dateien in filetransfer sein?
+- wie groß sind meine dateien?
+- wie ich einen channel auf teams erstellen kann
+- wie ich einen ordner in dms umbenennen kann
+- wie installierte ich die mfa-app?
+- wie kann ein gast sein passwort in teams ändern?
+- wie kann ich auf filetransfer zugreifen?
+- wie kann ich auf ida zugreifen?
+- wie kann ich auf mein onedrive-konto zugreifen?
+- wie kann ich beiträge filtern
+- wie kann ich beiträge in mehreren teams-räumen posten?
+- wie kann ich benutzer & telefondaten ändern?
+- wie kann ich das giz wlan einrichten
+- wie kann ich dateien extrahieren?
+- wie kann ich dateien hochladen?
+- wie kann ich dateien löschen?
+- wie kann ich den mfa für einen externen gast zurücksetzen?
+- wie kann ich die geräte ändern auf denen microsoft 365 installiert ist?
+- wie kann ich die vorversion eines dokuments in sharepoint wiederherstellen
+- wie kann ich ein archiv in outlook erstellen?
+- wie kann ich ein bild senden?
+- wie kann ich ein mitglied zum ida-community-manager machen?
+- wie kann ich ein neues passwort erstellen?
+- wie kann ich ein outlook-archiv erstellen?
+- wie kann ich ein pdf erstellen?
+- wie kann ich ein team einäschern?
+- wie kann ich ein team in teams verlassen
+- wie kann ich eine abewesenheitsmeldung einrichten
+- wie kann ich eine besprechung in teams aufzeichnen?
+- wie kann ich eine community erstellen
+- wie kann ich eine datei entzippen?
+- wie kann ich eine datei in sharepoint hochladen?
+- wie kann ich eine datei in teams mit allen versionen verschieben?
+- wie kann ich eine e-mail senden?
+- wie kann ich eine ida seite einrichten
+- wie kann ich eine ida seite erstellen?
+- wie kann ich eine ida-community einrichten?
+- wie kann ich eine katze als favorit hinzufügen?
+- wie kann ich eine katze als favorit in teams hinzufügen?
+- wie kann ich eine kolleginnen markieren
+- wie kann ich eine neue teams chanel öffnen
+- wie kann ich eine pdf datei öffnen?
+- wie kann ich eine teambesprechung in einem neuen fenster öffnen?
+- wie kann ich eine teams einladung im auftrag von senden?
+- wie kann ich eine teamsbesprechung in einem neuen fenster öffnen? teams
+- wie kann ich einem team beitreten?
+- wie kann ich einen arbeitskreis einrichten
+- wie kann ich einen archiv erstellen?
+- wie kann ich einen beitrag liken
+- wie kann ich einen eigenen planner anlegen?
+- wie kann ich einen fax versenden?
+- wie kann ich einen gast in teams einladen?
+- wie kann ich einen gastbenutzer zu teams hinzufügen?
+- wie kann ich einen kanal erstellen in teams?
+- wie kann ich einen kollegen markieren
+- wie kann ich einen ms-teamsraum beitreten?
+- wie kann ich einen neuen externen nutzer anlegen?
+- wie kann ich einen neuen teams raum erstellen?
+- wie kann ich einen neuen teamsraum gründen?
+- wie kann ich einen tag followen
+- wie kann ich einen teamkanal erstellen?
+- wie kann ich einen teams chat anpinnen?
+- wie kann ich einen teams kanal löschen?
+- wie kann ich einen teams raum anlegen?
+- wie kann ich einen temasraum ereöffnen?
+- wie kann ich einer ida community followen
+- wie kann ich e-mail benachrichtigungen zu communities bekommen
+- wie kann ich fotos/videos im dms speichern
+- wie kann ich gelöschte dateien aus teams abrufen?
+- wie kann ich große dateien mit einem externen mitarbeiter teilen?
+- wie kann ich große dateien mit externen austauschen
+- wie kann ich ida communities zu meinen favoriten hinzufügen
+- wie kann ich ida-seiten erstellen, ohne sie zu veröffentlichen?
+- wie kann ich in dms eine datei in der smartview bearbeiten?
+- wie kann ich in dms in die klassische ansicht wechseln?
+- wie kann ich in einer community einen beitrag erstellen
+- wie kann ich in ida einen beitrag erstellen
+- wie kann ich in ida kenntnisse eintragen
+- wie kann ich in skype for business einen anruf mit rückfrage durchstellen
+- wie kann ich in skype for business einen anruf ohne rückfrage durchstellen
+- wie kann ich in teams aufzeichnen?
+- wie kann ich in teams die zeitzone einstellen?
+- wie kann ich in teams ein breakout room einrichten?
+- wie kann ich in teams einen chat anpinnen?
+- wie kann ich in teams einen neuen kanal erstellen?
+- wie kann ich in teams einen neuen raum erstellen?
+- wie kann ich installieren microsoft edge?
+- wie kann ich jemand in teams markieren?
+- wie kann ich jemandem auf ida folgen?
+- wie kann ich mails im dms ablegen
+- wie kann ich mein ama laptop aktvieren
+- wie kann ich mein e-mail-passwort ändern?
+- wie kann ich mein giz-konto einsehen?
+- wie kann ich mein outlook-kennwort ändern?
+- wie kann ich mein password ändern
+- wie kann ich mein passwort ändern?
+- wie kann ich mein passwort zurück setzen?
+- wie kann ich mein passwort zurücksetzen
+- wie kann ich mein passwort zurücksetzen?
+- wie kann ich mein passwort zurücksetzen??
+- wie kann ich mein profilbild ändern
+- wie kann ich mein profilbild in ida ändern
+- wie kann ich meine dateien sichern?
+- wie kann ich meine daten sichern
+- wie kann ich meine daten speichern?
+- wie kann ich meine mfa änder?
+- wie kann ich meine postfachgröße erweitern?
+- wie kann ich meine skills hinzufügen
+- wie kann ich meinen arbeitsplatzdrucker installieren?
+- wie kann ich meinen pc neustarten?
+- wie kann ich meinen teams status ändern
+- wie kann ich mich anmelden, wenn mein smartphone gar keine datenverbindung hat
+- wie kann ich mich authentifizieren, wenn ich keine der vorgegebenen möglichkeiten nutzen kann (weder smartphone oder handy noch festnetztelefon vorhanden)
+- wie kann ich mit externen partnern digital zusammenarbeiten
+- wie kann ich mit teams in's ausland telefonieren?
+- wie kann ich nach beiträgen suchen
+- wie kann ich nach posts suchen
+- wie kann ich nachrichten im intranet veröffentlichen?
+- wie kann ich office 365 installieren
+- wie kann ich outlook auf dem handy einrichten?
+- wie kann ich outlook konfigurieren
+- wie kann ich outlook updaten ?
+- wie kann ich outlook-aufgaben einer anderen person zuweisen?
+- wie kann ich pdfs zusammenfügen?
+- wie kann ich posts finden
+- wie kann ich project installieren
+- wie kann ich sap zuhause nutzen?
+- wie kann ich sharepoint-seiten erstellen, ohne sie zu veröffentlichen?
+- wie kann ich sicherstellen, dass ich immer über die neuesten office-anwendungen verfüge?
+- wie kann ich software im mobilen arbeiten aktualisieren
+- wie kann ich sondersoftware installieren?
+- wie kann ich teams herunterladen?
+- wie kann ich teams öffnen?
+- wie kann ich verlorene e-mails in outlook wiederherstellen?
+- wie kann ich visio installieren?
+- wie kann ich whiteboard außerhalb von teams verwenden?
+- wie kann ich whiteboard herunterladen?
+- wie kann ich whiteboard nutzen
+- wie kann ich whiteboard nutzen?
+- wie kann ich zasen?
+- wie kann ich zip-datei extrahirn?
+- wie kann man eine sharepoint liste erstellen?
+- wie kann sich eine kollegin / ein kollege vom nationalen personal authentifizieren, die / der über kein diensthandy verfügt und sich auf dienstreise befindet
+- wie komme ich an meine ubr
+- wie komme ich an office 365
+- wie komme ich an visio ran?
+- wie komme ich in das wlan der giz
+- wie komme ich in ida rein
+- wie komme ich zu ess?
+- wie komme ich zu ida
+- wie komme ich zu pur
+- wie komme ich zum e-katalog
+- wie kriege ich benachrichtigungen?
+- wie kriege ich e-mail benachrichtigungen zu ida communities
+- wie kriege ich skype aufzeichnungsberechtigungen
+- wie lade ich die outlook app auf meinem smartphone runter
+- wie lade ich die outlook app runter
+- wie lade ich eine datei in onedrive hoch?
+- wie lade ich gäste zu teams ein
+- wie lange bleiben gelöschte dateien in onedrive erhalten?
+- wie lange dauern der download und die installation von microsoft 365 oder office?
+- wie lange speichert filetransfer die dateien?
+- wie lange speichert filetransfer meine dateien?
+- wie lange werden gelöschte dateien in onedrive aufbewahrt?
+- wie lange werden meine dateien von filetransfer gespeichert?
+- wie lassen sich dateien in onedrive gemeinsam bearbeiten?
+- wie lautet das initialpasswort
+- wie lautet das wlan passwort
+- wie lege in eine kurzwahl an?
+- wie lernst du?
+- wie mache ich auf dem pc einen backup meiner daten
+- wie mache ich ein backup
+- wie mache ich eine videokonferenzanlage an?
+- wie mache ich eine vk anlage an?
+- wie mache ich einen screenshot
+- wie mache ich windows updates
+- wie mache ich windows updates?
+- wie man mfa konfiguriert?
+- wie man verschiedene gruppen in einem kanal erstellt?
+- wie man zwei personen gleichzeitig mit teams anruft?
+- wie melde ich mich bei outlook an?
+- wie melde ich mich im wlan an
+- wie melde ich mich in outlook an?
+- wie merkt man, dass ein gast hinzugefügt wurde?
+- wie nenne ich teams-räume mit gästen?
+- wie outlook auf meinem laptop zu konfigurieren?
+- wie registriert sich der gast?
+- wie richte ich eine cheffunktion in skype for business ein
+- wie richte ich eine chef-sek funktion ein
+- wie richte ich eine sekretariatsfunktion in skype for business ein
+- wie richte ich in dms eine projektakte ein
+- wie richte ich mfa ein
+- wie schaffe ich ein team in teams?
+- wie schalte ich eine videokonferenzanlage ein?
+- wie schalte ich eine vk anlage ein?
+- wie setze ich mein passwort zurück
+- wie sicher ist office 35?
+- wie sichere ich meine daten
+- wie sichere ich meine daten auf dem laptop
+- wie stelle ich eine verbindung mit onedrive her
+- wie stelle ich meine mfa methode um, wenn ich ein neues diensthandy habe?
+- wie synchronisiere ich meine dateien mit der cloud?
+- wie synchronisiere ich meine onedrive dateien?
+- wie teile ich eine datei in onedrive?
+- wie verbinde ich einen community kalender mit outlook
+- wie verbinde ich einen ida kalender mit outlook
+- wie verlängere ich einen teams kanal?
+- wie verwaltet man mein giz-konto?
+- wie viel platz gibt es auf meinem onedrive?
+- wie viel speicher hab ich in onedrive?
+- wie viele kanäle kann ein team team haben?
+- wie viele kanäle kann ich in einem team erstellen?
+- wie viele personen können einem team in teams beitreten?
+- wie viele personen können in einem team sein?
+- wie wird trunk im computernetzwerk verwendet?
+- wie wirst du besser
+- wie wirst du schlauer
+- wieso funktioniert die touch-funktion am collaboration display nicht?
+- wieso kann ich keine mails im dms ablegen
+- wieso kann ich keine videos ins dms hochladen
+- wieso muss ich mein passwort ändern
+- wieviel kostet teams gastzugang?
+- windows
+- windows 10
+- winpaccs
+- winpaccs accounting passwort
+- winpaccs cashbook passwort
+- winpaccs support
+- winpaccs technischer support
+- wir brauchen einen arbeitskreis.
+- wir haben hier einen teams raum ohne besitzer
+- wird der zusätzliche faktor von jetzt ab immer abgefragt bei der anmeldung
+- wlan-einstellungen
+- wo bekomme ich die mfa authenticator app?
+- wo bekomme ich microsoft visio?
+- wo bekomme ich webex?
+- wo finde ich alle werkzeuge?
+- wo finde ich das it serivce center?
+- wo finde ich das it service centerß
+- wo finde ich den it service desk
+- wo finde ich den like knopf
+- wo finde ich den reisemanager
+- wo finde ich den service desk
+- wo finde ich den service desk berlin?
+- wo finde ich die gesamte software?
+- wo finde ich die outlook app für android
+- wo finde ich die outlook app für apple
+- wo finde ich die rffs
+- wo finde ich die solutionbox?
+- wo finde ich die teams app
+- wo finde ich eine einführung in ida
+- wo finde ich ess
+- wo finde ich filetransfer?
+- wo finde ich ida
+- wo finde ich informationen zu it-projekten?
+- wo finde ich meine dateien in onedrive?
+- wo finde ich meine gehaltsabrechnungen
+- wo finde ich meinen onedrive?
+- wo finde ich office 365
+- wo finde ich openshot
+- wo finde ich pdf24?
+- wo finde ich pur
+- wo finde ich snipping tool
+- wo finde ich verbindliche richtlinien der giz
+- wo ist denn das formular für die arbeitskreise
+- wo ist der it service desk
+- wo ist our
+- wo kann ich alle software sehen die in der giz zugelassen sind?
+- wo kann ich denn fotos / videos abspeichern
+- wo kann ich eine dms projektakte anlegen?
+- wo kann ich eine liste aller software sehen?
+- wo kann ich fotos ablegen, damit alle in der gruppe sie sehen können
+- wo kann ich große dateien teilen?
+- wo kann ich ida communities suchen
+- wo kann ich mein kennwort ändern
+- wo kann ich mein mfa setzen
+- wo kann ich mein outlook profil zurücksetzen?
+- wo kann ich mein passwort ändern
+- wo kann ich mein passwort zurücksetzen ?
+- wo kann ich meine daten sichern
+- wo kann ich meine expertisen angeben
+- wo kann ich mfa konfigurationen ändern
+- wo kann ich mich anmelden?
+- wo kann ich revisionssicher dokumente ablegen bspw. angebote oder verträge
+- wo kriege ich it unterstürzung
+- wo soll ich meine dateien hochladen? onedrive, eine teamwebsite in sharepoint oder dms?
+- wo werden dateien in teams gespeichert?
+- wofür ist onedrive nützlich?
+- wofür steht ima?
+- woher bekomme ich eine windows 10 lizenz
+- woher bekomme ich einen windows 10 lizenzkey
+- woran sehe ich, dass mein outlook im offlinemodus ist?
+- worauf haben teams gäste zugriff?
+- worauf haben teams-gäste zugriff?
+- worauf können teams gäste zugreifen?
+- word
+- word autospeichern aktivieren
+- word datei verschwunden
+- word datei wiederherstellen
+- word ist abgestürzt
+- word-dokument und lenovo
+- wort
+- z. info. hierbei handelt es sich wahrscheinlich um einen virus
+- zahlen wir für mfa
+- zas berechtigungen
+- zas zugang funktioniert nicht
+- zeitzone für temamsräume ändern?
+- zip
+- zugriff sap mobil
+- {@Software} ist abgestürzt
+- mein {@Software} stürzt immer ab
+- ich kann mich nicht in {@Software} anmelden
+
+
+@ intent q_gizkim_faq usesFeatures i_1,i_0
+
+# Reject
+- ah verdammt es
+- auf keinen fall
+- danke für nichts
+- das ist falsch
+- das ist nicht die antwort, die ich gesucht habe.
+- das stimmt nicht
+- ganz falsch
+- ich glaube nicht
+- ihre antwort hat mir nicht geholfen, freut sich auf ihre antwort
+- leider nein
+- ne
+- nein doch nich
+- nein doch nicht
+- nein!
+- nein! das war nicht meine frage!
+- nein, danke
+- nein, danke, ich werde nicht
+- nein, doch nicht
+- nein, es hat nicht
+- nein, leider nicht.
+- nein, leider nicht. kim muss noch viel lernen
+- nein, nicht genau.
+- nein.
+- nicht ganz
+- nicht hilfreich
+- nicht wirklich
+- nicht wirklich, aber danke sowieso
+- no
+- nö
+- noch nicht angemessen
+- noch nicht.
+- nope
+- überhaupt nicht
+- überhaupt nicht.
+- weiß nicht
+
+
+@ intent Reject usesFeatures i_1,i_0
+
+# StartOver
+- 1337
+- beginnen sie von vorn
+- bitte fang erneut an
+- fang nochmal an
+- fang von vorne an
+- fangen von vorne an
+- fangen wir noch einmal an
+- kannst du nochmal neu beginnen?
+- können sie bitte bei null anfangen?
+- können sie von vorne anfangen?
+- neu starten
+- neuanfang bei null
+- neustart
+- neustart bitte
+- neustarten
+- noch mal von vorne anfangen
+- nochmal von vorne
+- ok lässt von vorne anfangen
+- start over
+- starte doch bitte nochmal von vorne
+- starte mal neu
+- starte mal von vorne
+- starte neu
+- starte nochmal neu
+- starten sie den bot neu
+- startover
+- von vorne anfangen
+
+
+@ intent StartOver usesFeatures i_1,i_0
+
+# Thanks
+- dank kim
+- danke
+- danke dir
+- danke für ihre hilfe
+- danke kim
+- danke sehr
+- danke!
+- danke, kim! bis später
+- dankeschön
+- ja, danke kim
+- klasse, danke dir!
+- ok danke
+- perfekt, vielen dank
+- super danke
+- super, danke
+- toll, danke.
+- vielen dank
+- vielen dank!
+- vielen dank, kim.
+- vielen dank.
+- wenn ich ihnen sehr danke
+
+
+@ intent Thanks usesFeatures i_1,i_0
+
+# UK
+- wo finde ich die community zu kuf?
+- wo finde ich die corporate design website?
+
+
+@ intent UK usesFeatures i_1,i_0
+
+> # Entity definitions
+
+@ ml ContactEntity usesFeatures i_1,i_0
+    - @ ml ContactType usesFeatures i_1,i_0
+        - @ ml Phone usesFeatures i_0,i_1
+        - @ ml Mail usesFeatures i_0,i_1
+        - @ ml Person usesFeatures i_0,i_1
+    - @ ml Name usesFeatures i_1,i_0
+        - @ ml FirstName usesFeatures i_1,i_0
+        - @ ml LastName usesFeatures i_1,i_0
+
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+@ phraselist i_0(interchangeable) enabledForAllModels = 
+	- lenovo,fujitsu
+
+@ phraselist i_1(interchangeable) enabledForAllModels = 
+	- onboarding,mfa,ida,office 365
+
+
+> # List entities
+
+@ list Hardware = 
+	- Laptop :
+
+
+@ list Software = 
+	- Office :
+		- Excel
+		- Word
+		- Microsoft Excel
+		- Microsoft Word
+		- Skype
+		- SfB
+		- S4B
+		- Skype for Business
+		- MS Word
+		- MS Excel
+		- Access
+		- Project
+		- Büro
+		- .doc
+		- .xlsx
+		- Powerpoint
+		- Power Point
+		- .pp
+	- IDA :
+		- Integrierte Digitale Anwendungen
+		- Integrated Digital Application
+	- SAP :
+		- ESS
+		- Travel Management
+		- Reisemanager
+		- Reisemanagement
+		- ZAS
+		- ESPRIT
+		- Employee Self Service
+		- Zeiterfassung
+	- Personal :
+		- vergessen
+		- Anmeldung
+		- anmelden
+		- einloggen
+		- log in
+		- IMA
+		- AMA
+	- Hardware :
+		- Desktop
+		- Fujitsu
+		- Lenovo
+		- Computer
+		- Laptop
+		- Smartphone
+	- ITSC :
+		- IT Service Center
+		- Service Center
+		- IT Service Desk
+		- IT-Dienstleistungszentrum
+		- Service Desk
+	- Adobe :
+		- Acrobat
+		- Adobe Acrobat
+		- Reader
+		- Reader DC
+		- Leser
+		- DC
+		- Photoshop
+		- Lightroom
+		- Captivate
+		- PDF
+	- Windows :
+		- Microsoft
+		- Windows 10
+		- Windows 7
+		- Fenster
+	- Fax :
+	- Password :
+		- Passwort
+		- Kennwort
+		- zurücksetzen
+	- MFA :
+		- Multifaktorauthentifizierung
+		- 2FA
+		- Zwei Faktor
+	- Dateiendungen :
+		- doc
+		- docx
+		- xls
+		- xlsx
+		- ppt
+		- pptx
+		- zip
+		- rar
+		- pdf
+		- exe
+	- DMS :
+		- Dokumentenmanagementsystem
+		- Dokumenten Management System
+		- Smart View
+		- SmartView
+	- 7-Zip :
+		- 7Zip
+	- Zusatzsoftware :
+		- PDF24 Creator
+		- 7-Zip
+		- Mindmanager
+		- Greenshot
+		- Notepad++
+		- CDBurnerXP
+		- Digital Editions
+		- Irfanview
+		- SyncToy
+		- Openshot
+	- Browser :
+		- Internet Explorer
+		- IE
+		- Firefox
+		- Edge Chromium
+		- Edge
+	- O365 :
+		- Visio
+		- Sharepoint
+		- OneDrive
+		- Whiteboard
+		- Shifts
+		- PowerApps
+		- Power Apps
+	- Outlook :
+		- MS Outlook
+		- OL
+		- Mail
+		- Mails
+		- Webmail
+		- .pst
+		- PST
+	- Teams :
+		- Microsoft Teams
+		- MS Teams
+		- Teamraum
+		- Raum
+		- Raumname
+		- Planer
+		- Planner
+		- Temamsräume
+	- Filetransfer :
+		- File transfer
+		- große Dateien
+		- Transfer
+	- Videokonferenz :
+		- VK
+		- Collaboration Tool
+		- Conferencing tool
+		- skypen
+		- Collaboration display
+		- surface hub
+		- surfacehubs
+		- surfacehub
+	- Unerlaubt :
+		- GatherPlace
+		- GoMeetNow
+		- Google Drive
+		- GoTo Meetings
+		- Mikogo
+		- Piwigo
+		- Prezi
+		- RStudio
+		- Spreed
+		- Wire
+		- Zoom
+		- Bluejeans
+		- Canva
+		- ClickMeeting
+		- Dropbox
+		- edudip
+		- edudip next
+		- Eventmobi
+		- Eyeson
+		- FastViewer
+		- Genial.ly
+		- Präzi
+
+
+> # RegEx entities
+
